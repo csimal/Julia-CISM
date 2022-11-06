@@ -1,0 +1,3315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:gadfly="http://www.gadflyjl.org/ns"
+     version="1.2"
+     width="150mm" height="90mm" viewBox="0 0 150 90"
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.3"
+     font-size="3.88"
+>
+<defs>
+  <marker id="arrow" markerWidth="15" markerHeight="7" refX="5" refY="3.5" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L15,3.5 L0,7 z" stroke="context-stroke" fill="context-stroke"/>
+  </marker>
+</defs>
+<g class="plotroot xscalable yscalable" id="img-e44ee3e8-1">
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#FFFFFF" stroke="#000000" stroke-opacity="0.000" id="img-e44ee3e8-2">
+    <g transform="translate(64.78,79.18)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">Year</text>
+      </g>
+    </g>
+  </g>
+  <g class="guide xlabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#FFFFFF" id="img-e44ee3e8-3">
+    <g transform="translate(13.94,73.41)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">1970</text>
+      </g>
+    </g>
+    <g transform="translate(34.28,73.41)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">1980</text>
+      </g>
+    </g>
+    <g transform="translate(54.61,73.41)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">1990</text>
+      </g>
+    </g>
+    <g transform="translate(74.95,73.41)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">2000</text>
+      </g>
+    </g>
+    <g transform="translate(95.29,73.41)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">2010</text>
+      </g>
+    </g>
+    <g transform="translate(115.63,73.41)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">2020</text>
+      </g>
+    </g>
+  </g>
+  <g class="guide colorkey" id="img-e44ee3e8-4">
+    <g fill="#FFFFFF" font-size="2.82" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" id="img-e44ee3e8-5">
+      <g transform="translate(124.89,25.68)" id="img-e44ee3e8-6" class="color_#Transistors__(thousands)">
+        <g class="primitive">
+          <text dy="-0.25em">#Transistors<tspan x="0" dy="1.1000em"> (thousands)</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(124.89,36.21)" id="img-e44ee3e8-7" class="color_Single_Thread__Performance__(SpecINT_x_10³)">
+        <g class="primitive">
+          <text dy="-0.85em">Single Thread<tspan x="0" dy="1.1000em"> Performance</tspan><tspan x="0" dy="1.1000em"> (SpecINT x 10³)</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(124.89,46.73)" id="img-e44ee3e8-8" class="color_Frequency__(MHz)">
+        <g class="primitive">
+          <text dy="-0.25em">Frequency <tspan x="0" dy="1.1000em">(MHz)</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(124.89,57.26)" id="img-e44ee3e8-9" class="color_Power_(Watts)">
+        <g class="primitive">
+          <text dy="0.35em">Power (Watts)</text>
+        </g>
+      </g>
+      <g transform="translate(124.89,67.78)" id="img-e44ee3e8-10" class="color_#Cores">
+        <g class="primitive">
+          <text dy="0.35em">#Cores</text>
+        </g>
+      </g>
+    </g>
+    <g fill-opacity="1" id="img-e44ee3e8-11">
+      <g transform="translate(121.26,25.68)" id="img-e44ee3e8-12" fill="#00BFFF" class="color_#Transistors__(thousands)" stroke="#FFFFFF">
+        <path d="M-2.63,-2.63 L2.63,-2.63 2.63,2.63 -2.63,2.63  z" class="primitive"/>
+      </g>
+      <g transform="translate(121.26,36.21)" id="img-e44ee3e8-13" fill="#D4CA3A" class="color_Single_Thread__Performance__(SpecINT_x_10³)" stroke="#FFFFFF">
+        <path d="M-2.63,-2.63 L2.63,-2.63 2.63,2.63 -2.63,2.63  z" class="primitive"/>
+      </g>
+      <g transform="translate(121.26,46.73)" id="img-e44ee3e8-14" fill="#FF6DAE" class="color_Frequency__(MHz)" stroke="#FFFFFF">
+        <path d="M-2.63,-2.63 L2.63,-2.63 2.63,2.63 -2.63,2.63  z" class="primitive"/>
+      </g>
+      <g transform="translate(121.26,57.26)" id="img-e44ee3e8-15" fill="#00B78D" class="color_Power_(Watts)" stroke="#FFFFFF">
+        <path d="M-2.63,-2.63 L2.63,-2.63 2.63,2.63 -2.63,2.63  z" class="primitive"/>
+      </g>
+      <g transform="translate(121.26,67.78)" id="img-e44ee3e8-16" fill="#BEA9FF" class="color_#Cores" stroke="#FFFFFF">
+        <path d="M-2.63,-2.63 L2.63,-2.63 2.63,2.63 -2.63,2.63  z" class="primitive"/>
+      </g>
+    </g>
+    <g fill="#362A35" font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" stroke="#000000" stroke-opacity="0.000" id="img-e44ee3e8-17">
+      <g transform="translate(118.63,13.16)" id="img-e44ee3e8-18">
+        <g class="primitive">
+          <text dy="-0em"></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g clip-path="url(#img-e44ee3e8-19)">
+    <g id="img-e44ee3e8-20">
+      <g pointer-events="visible" stroke-width="0.3" fill="#000000" fill-opacity="0.000" stroke="#000000" stroke-opacity="0.000" class="guide background" id="img-e44ee3e8-21">
+        <g transform="translate(64.78,41.47)" id="img-e44ee3e8-22">
+          <path d="M-52.85,-30.94 L52.85,-30.94 52.85,30.94 -52.85,30.94  z" class="primitive"/>
+        </g>
+      </g>
+      <g class="guide ygridlines xfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-e44ee3e8-23">
+        <g transform="translate(64.78,70.41)" id="img-e44ee3e8-24">
+          <path fill="none" d="M-52.85,0 L52.85,0 " class="primitive"/>
+        </g>
+        <g transform="translate(64.78,63.98)" id="img-e44ee3e8-25">
+          <path fill="none" d="M-52.85,0 L52.85,0 " class="primitive"/>
+        </g>
+        <g transform="translate(64.78,57.55)" id="img-e44ee3e8-26">
+          <path fill="none" d="M-52.85,0 L52.85,0 " class="primitive"/>
+        </g>
+        <g transform="translate(64.78,51.12)" id="img-e44ee3e8-27">
+          <path fill="none" d="M-52.85,0 L52.85,0 " class="primitive"/>
+        </g>
+        <g transform="translate(64.78,44.69)" id="img-e44ee3e8-28">
+          <path fill="none" d="M-52.85,0 L52.85,0 " class="primitive"/>
+        </g>
+        <g transform="translate(64.78,38.25)" id="img-e44ee3e8-29">
+          <path fill="none" d="M-52.85,0 L52.85,0 " class="primitive"/>
+        </g>
+        <g transform="translate(64.78,31.82)" id="img-e44ee3e8-30">
+          <path fill="none" d="M-52.85,0 L52.85,0 " class="primitive"/>
+        </g>
+        <g transform="translate(64.78,25.39)" id="img-e44ee3e8-31">
+          <path fill="none" d="M-52.85,0 L52.85,0 " class="primitive"/>
+        </g>
+        <g transform="translate(64.78,18.96)" id="img-e44ee3e8-32">
+          <path fill="none" d="M-52.85,0 L52.85,0 " class="primitive"/>
+        </g>
+        <g transform="translate(64.78,12.53)" id="img-e44ee3e8-33">
+          <path fill="none" d="M-52.85,0 L52.85,0 " class="primitive"/>
+        </g>
+      </g>
+      <g class="guide xgridlines yfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-e44ee3e8-34">
+        <g transform="translate(13.94,41.47)" id="img-e44ee3e8-35">
+          <path fill="none" d="M0,-30.94 L0,30.94 " class="primitive"/>
+        </g>
+        <g transform="translate(34.28,41.47)" id="img-e44ee3e8-36">
+          <path fill="none" d="M0,-30.94 L0,30.94 " class="primitive"/>
+        </g>
+        <g transform="translate(54.61,41.47)" id="img-e44ee3e8-37">
+          <path fill="none" d="M0,-30.94 L0,30.94 " class="primitive"/>
+        </g>
+        <g transform="translate(74.95,41.47)" id="img-e44ee3e8-38">
+          <path fill="none" d="M0,-30.94 L0,30.94 " class="primitive"/>
+        </g>
+        <g transform="translate(95.29,41.47)" id="img-e44ee3e8-39">
+          <path fill="none" d="M0,-30.94 L0,30.94 " class="primitive"/>
+        </g>
+        <g transform="translate(115.63,41.47)" id="img-e44ee3e8-40">
+          <path fill="none" d="M0,-30.94 L0,30.94 " class="primitive"/>
+        </g>
+      </g>
+      <g class="plotpanel" id="img-e44ee3e8-41">
+        <metadata>
+          <boundingbox value="11.938888888888883mm 10.527777777777779mm 105.6902777777778mm 61.88611111111111mm"/>
+          <unitbox value="1969.0166218228007 8.310955420125726 51.96675635439857 -9.621910840251452"/>
+        </metadata>
+        <g stroke-width="0.3" fill="#000000" fill-opacity="0.000" class="geometry" id="img-e44ee3e8-42">
+          <g transform="translate(82.67,60.2)" id="img-e44ee3e8-43" stroke-dasharray="none" class="color_#Cores" stroke="#BEA9FF">
+            <path fill="none" d="M-64.92,3.76 L-64.14,3.76 -60.03,3.77 -49.18,3.82 -43.7,3.84 -36.37,3.87 -35.68,3.87 -30.8,3.89 -29.13,3.9 -26.88,3.91 -23.27,3.95 -22.58,3.96 -22,3.97 -21.12,3.98 -18.48,4.01 -17.01,4.02 -16.32,4.03 -15.64,4.05 -14.86,4.06 -14.08,4.06 -13.29,4.06 -12.9,4.06 -12.41,4.06 -10.07,4.04 -9.38,4.03 -8.7,4.01 -7.33,3.96 -6.35,3.91 -5.47,3.85 -4.39,3.76 -4.1,3.73 -2.93,3.6 -2.15,3.49 -1.75,3.43 -0.97,3.31 -0.58,3.23 -0.19,3.16 2.06,2.64 2.16,2.61 3.92,2.1 4.11,2.04 4.41,1.95 4.6,1.88 6.17,1.3 6.65,1.1 7.83,0.61 8.02,0.52 8.02,0.52 8.32,0.39 8.51,0.3 8.9,0.11 9.49,-0.17 10.96,-0.91 11.05,-0.96 11.54,-1.21 11.84,-1.36 12.03,-1.47 12.03,-1.47 13.01,-1.97 14.98,-2.95 15.3,-3.1 16.48,-3.66 17.5,-4.12 17.52,-4.13 18.11,-4.4 18.52,-4.58 19.53,-5.02 20.35,-5.37 21.08,-5.68 21.77,-5.96 22.38,-6.21 22.4,-6.22 22.42,-6.22 25.49,-7.38 25.84,-7.5 26.18,-7.62 27.87,-8.17 28.03,-8.22 28.06,-8.22 29.7,-8.7 29.91,-8.75 31.53,-9.16 32.55,-9.39 " class="primitive"/>
+          </g>
+          <g transform="translate(81.59,45.76)" id="img-e44ee3e8-44" stroke-dasharray="none" class="color_Frequency__(MHz)" stroke="#FF6DAE">
+            <path fill="none" d="M-63.84,19.04 L-63.06,18.83 -58.85,17.66 -48.19,14.6 -42.62,12.94 -35.29,10.69 -34.6,10.47 -29.71,8.87 -28.05,8.32 -25.8,7.55 -22.09,6.19 -21.5,5.97 -21.5,5.97 -20.82,5.7 -20.03,5.39 -20.03,5.39 -17.39,4.38 -17.39,4.38 -15.93,3.79 -15.34,3.56 -14.56,3.24 -14.07,3.04 -13.87,2.96 -13.09,2.64 -12.02,2.18 -11.82,2.09 -11.62,2.01 -11.43,1.93 -8.98,0.91 -8.4,0.66 -8.3,0.62 -7.71,0.38 -7.71,0.38 -6.25,-0.21 -5.27,-0.6 -4.39,-0.94 -4.19,-1.02 -3.22,-1.39 -3.02,-1.46 -1.75,-1.92 -0.97,-2.19 -0.77,-2.26 0.3,-2.59 0.5,-2.64 0.7,-2.7 3.14,-3.22 3.14,-3.22 3.24,-3.24 5,-3.5 5.29,-3.54 5.49,-3.57 5.58,-3.58 7.34,-3.74 7.34,-3.74 7.64,-3.77 7.74,-3.77 8.91,-3.85 9.1,-3.86 9.1,-3.86 9.3,-3.87 9.59,-3.89 9.98,-3.9 9.98,-3.9 10.57,-3.93 12.04,-3.97 12.23,-3.97 12.53,-3.98 13.02,-3.99 13.11,-3.99 14.09,-4 16.06,-4 16.38,-4 17.56,-3.99 18.58,-3.97 18.6,-3.97 19.19,-3.96 19.6,-3.95 20.61,-3.92 21.43,-3.89 22.16,-3.86 22.85,-3.83 23.46,-3.81 23.48,-3.81 23.5,-3.81 26.57,-3.64 26.92,-3.61 27.27,-3.59 28.95,-3.47 29.12,-3.46 29.14,-3.46 30.78,-3.33 30.99,-3.31 32.61,-3.17 33.63,-3.08 " class="primitive"/>
+          </g>
+          <g transform="translate(80.56,33.16)" id="img-e44ee3e8-45" stroke-dasharray="none" class="color_#Transistors__(thousands)" stroke="#00BFFF">
+            <path fill="none" d="M-62.81,27.86 L-61.93,27.5 -57.82,25.82 -47.16,21.46 -41.59,19.2 -34.25,16.23 -33.57,15.95 -28.68,13.93 -27.02,13.26 -24.77,12.34 -21.05,10.76 -20.47,10.5 -20.47,10.5 -19.78,10.19 -19,9.84 -19,9.84 -16.36,8.6 -16.36,8.6 -14.89,7.91 -14.31,7.62 -13.43,7.2 -13.04,7.02 -13.04,7.02 -12.84,6.92 -12.06,6.54 -10.98,6 -10.79,5.91 -10.59,5.81 -10.4,5.71 -7.85,4.4 -7.37,4.14 -7.27,4.09 -6.68,3.77 -6.68,3.77 -5.21,2.96 -4.24,2.42 -4.24,2.42 -3.36,1.92 -3.16,1.81 -2.18,1.26 -1.89,1.09 -0.72,0.42 0.07,-0 0.26,-0.11 1.34,-0.7 1.53,-0.8 1.83,-0.96 4.17,-2.17 4.17,-2.17 4.17,-2.17 6.03,-3.1 6.23,-3.2 6.52,-3.34 6.71,-3.44 8.38,-4.28 8.38,-4.28 8.47,-4.33 8.57,-4.38 8.57,-4.38 8.77,-4.48 9.94,-5.06 10.14,-5.15 10.23,-5.2 10.33,-5.25 10.63,-5.4 11.11,-5.64 11.6,-5.88 13.07,-6.61 13.27,-6.71 14.05,-7.09 14.15,-7.14 15.12,-7.62 15.51,-7.81 17.09,-8.58 17.42,-8.74 18.6,-9.3 19.61,-9.78 19.63,-9.79 20.22,-10.07 20.63,-10.26 21.65,-10.73 22.46,-11.1 23.19,-11.43 23.88,-11.75 24.49,-12.02 24.52,-12.03 24.54,-12.04 27.61,-13.39 28.3,-13.68 29.99,-14.4 31.82,-15.16 32.02,-15.24 33.65,-15.89 34.66,-16.3 " class="primitive"/>
+          </g>
+          <g transform="translate(82.67,39.61)" id="img-e44ee3e8-46" stroke-dasharray="none" class="color_Single_Thread__Performance__(SpecINT_x_10³)" stroke="#D4CA3A">
+            <path fill="none" d="M-30.79,13.84 L-29.13,12.94 -26.78,11.67 -23.16,9.73 -22.57,9.42 -22.57,9.42 -21.89,9.05 -21.11,8.64 -18.37,7.18 -18.37,7.18 -17,6.45 -16.41,6.14 -15.53,5.67 -15.53,5.67 -15.14,5.46 -15.14,5.46 -14.07,4.89 -13.09,4.37 -12.89,4.27 -12.6,4.11 -12.5,4.06 -9.96,2.79 -9.37,2.5 -9.37,2.5 -8.79,2.22 -8.69,2.17 -7.32,1.5 -6.34,1.02 -5.46,0.6 -5.27,0.51 -4.29,0.04 -4.09,-0.05 -2.82,-0.66 -1.94,-1.07 -1.85,-1.11 -0.77,-1.57 -0.57,-1.65 -0.28,-1.76 2.07,-2.62 2.07,-2.62 2.07,-2.62 4.02,-3.14 4.22,-3.19 6.27,-3.64 6.37,-3.66 6.47,-3.67 6.66,-3.71 8.13,-3.97 8.23,-3.98 8.91,-4.09 11.2,-4.46 11.61,-4.53 12.02,-4.6 13.24,-4.81 13.64,-4.88 14.98,-5.12 15.31,-5.17 16.49,-5.38 17.51,-5.55 17.53,-5.55 18.52,-5.71 20.35,-6 21.09,-6.11 22.39,-6.3 22.41,-6.3 22.43,-6.31 25.5,-6.74 28.04,-7.07 28.06,-7.07 31.54,-7.47 32.56,-7.58 " class="primitive"/>
+          </g>
+          <g transform="translate(81.32,53.39)" id="img-e44ee3e8-47" stroke-dasharray="none" class="color_Power_(Watts)" stroke="#00B78D">
+            <path fill="none" d="M-63.57,12.34 L-62.69,12.23 -58.58,11.7 -47.92,10.09 -42.35,9.12 -35.02,7.7 -34.33,7.56 -29.44,6.5 -27.78,6.12 -25.53,5.58 -21.82,4.57 -21.23,4.4 -20.54,4.2 -19.76,3.97 -19.76,3.97 -17.12,3.17 -17.12,3.17 -15.65,2.73 -15.07,2.55 -14.19,2.27 -13.89,2.18 -13.8,2.15 -13.6,2.1 -12.72,1.84 -11.74,1.55 -11.55,1.5 -11.35,1.44 -11.16,1.39 -8.61,0.69 -8.03,0.54 -8.03,0.54 -7.44,0.39 -7.44,0.39 -5.97,0.03 -5,-0.2 -5,-0.2 -4.12,-0.39 -3.92,-0.43 -2.94,-0.63 -2.65,-0.69 -1.48,-0.91 -0.6,-1.07 -0.5,-1.09 0.58,-1.26 0.77,-1.29 1.07,-1.32 3.41,-1.54 3.41,-1.54 3.51,-1.55 5.27,-1.68 5.47,-1.7 5.76,-1.72 5.95,-1.73 7.62,-1.82 7.71,-1.82 7.71,-1.82 7.81,-1.83 8.01,-1.84 9.18,-1.94 9.47,-1.97 9.67,-1.99 9.87,-2.01 10.26,-2.05 10.35,-2.05 10.84,-2.1 12.31,-2.26 12.51,-2.28 12.9,-2.33 13.09,-2.35 13.29,-2.37 14.75,-2.55 16.33,-2.73 16.66,-2.77 17.84,-2.9 18.85,-3.02 18.87,-3.02 19.46,-3.09 19.87,-3.13 20.89,-3.25 21.7,-3.34 22.43,-3.42 23.12,-3.49 23.73,-3.56 23.75,-3.56 23.78,-3.56 26.85,-3.88 27.19,-3.91 29.23,-4.1 29.39,-4.11 29.41,-4.11 31.06,-4.25 31.26,-4.27 32.89,-4.39 33.9,-4.47 " class="primitive"/>
+          </g>
+        </g>
+        <g class="geometry" id="img-e44ee3e8-48">
+          <g stroke-width="0.18" id="img-e44ee3e8-49">
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-50">
+              <g class="marker" id="img-e44ee3e8-51">
+                <g transform="translate(115.22,50.43)" id="img-e44ee3e8-52">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-53">
+              <g class="marker" id="img-e44ee3e8-54">
+                <g transform="translate(114.21,52.74)" id="img-e44ee3e8-55">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-56">
+              <g class="marker" id="img-e44ee3e8-57">
+                <g transform="translate(112.58,51.74)" id="img-e44ee3e8-58">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-59">
+              <g class="marker" id="img-e44ee3e8-60">
+                <g transform="translate(112.38,51.48)" id="img-e44ee3e8-61">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-62">
+              <g class="marker" id="img-e44ee3e8-63">
+                <g transform="translate(110.73,52.74)" id="img-e44ee3e8-64">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-65">
+              <g class="marker" id="img-e44ee3e8-66">
+                <g transform="translate(110.71,53.41)" id="img-e44ee3e8-67">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-68">
+              <g class="marker" id="img-e44ee3e8-69">
+                <g transform="translate(110.54,52.37)" id="img-e44ee3e8-70">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-71">
+              <g class="marker" id="img-e44ee3e8-72">
+                <g transform="translate(108.86,51.23)" id="img-e44ee3e8-73">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-74">
+              <g class="marker" id="img-e44ee3e8-75">
+                <g transform="translate(108.51,48.32)" id="img-e44ee3e8-76">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-77">
+              <g class="marker" id="img-e44ee3e8-78">
+                <g transform="translate(108.17,53.41)" id="img-e44ee3e8-79">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-80">
+              <g class="marker" id="img-e44ee3e8-81">
+                <g transform="translate(105.09,53.97)" id="img-e44ee3e8-82">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-83">
+              <g class="marker" id="img-e44ee3e8-84">
+                <g transform="translate(105.07,55.1)" id="img-e44ee3e8-85">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-86">
+              <g class="marker" id="img-e44ee3e8-87">
+                <g transform="translate(105.05,56.24)" id="img-e44ee3e8-88">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-89">
+              <g class="marker" id="img-e44ee3e8-90">
+                <g transform="translate(104.44,52.37)" id="img-e44ee3e8-91">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-92">
+              <g class="marker" id="img-e44ee3e8-93">
+                <g transform="translate(103.75,54.48)" id="img-e44ee3e8-94">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-95">
+              <g class="marker" id="img-e44ee3e8-96">
+                <g transform="translate(103.02,55.1)" id="img-e44ee3e8-97">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-98">
+              <g class="marker" id="img-e44ee3e8-99">
+                <g transform="translate(102.21,48.67)" id="img-e44ee3e8-100">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-101">
+              <g class="marker" id="img-e44ee3e8-102">
+                <g transform="translate(101.19,56.24)" id="img-e44ee3e8-103">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-104">
+              <g class="marker" id="img-e44ee3e8-105">
+                <g transform="translate(100.78,54.3)" id="img-e44ee3e8-106">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-107">
+              <g class="marker" id="img-e44ee3e8-108">
+                <g transform="translate(100.19,56.24)" id="img-e44ee3e8-109">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-110">
+              <g class="marker" id="img-e44ee3e8-111">
+                <g transform="translate(100.17,56.24)" id="img-e44ee3e8-112">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-113">
+              <g class="marker" id="img-e44ee3e8-114">
+                <g transform="translate(99.16,58.17)" id="img-e44ee3e8-115">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-116">
+              <g class="marker" id="img-e44ee3e8-117">
+                <g transform="translate(97.98,55.61)" id="img-e44ee3e8-118">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-119">
+              <g class="marker" id="img-e44ee3e8-120">
+                <g transform="translate(97.65,57.04)" id="img-e44ee3e8-121">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-122">
+              <g class="marker" id="img-e44ee3e8-123">
+                <g transform="translate(95.68,56.24)" id="img-e44ee3e8-124">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-125">
+              <g class="marker" id="img-e44ee3e8-126">
+                <g transform="translate(94.7,58.98)" id="img-e44ee3e8-127">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-128">
+              <g class="marker" id="img-e44ee3e8-129">
+                <g transform="translate(94.7,58.17)" id="img-e44ee3e8-130">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-131">
+              <g class="marker" id="img-e44ee3e8-132">
+                <g transform="translate(94.51,60.91)" id="img-e44ee3e8-133">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-134">
+              <g class="marker" id="img-e44ee3e8-135">
+                <g transform="translate(94.22,60.11)" id="img-e44ee3e8-136">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-137">
+              <g class="marker" id="img-e44ee3e8-138">
+                <g transform="translate(93.73,60.11)" id="img-e44ee3e8-139">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-140">
+              <g class="marker" id="img-e44ee3e8-141">
+                <g transform="translate(93.63,60.91)" id="img-e44ee3e8-142">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-143">
+              <g class="marker" id="img-e44ee3e8-144">
+                <g transform="translate(92.16,62.05)" id="img-e44ee3e8-145">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-146">
+              <g class="marker" id="img-e44ee3e8-147">
+                <g transform="translate(91.58,60.11)" id="img-e44ee3e8-148">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-149">
+              <g class="marker" id="img-e44ee3e8-150">
+                <g transform="translate(91.18,58.17)" id="img-e44ee3e8-151">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-152">
+              <g class="marker" id="img-e44ee3e8-153">
+                <g transform="translate(90.99,62.05)" id="img-e44ee3e8-154">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-155">
+              <g class="marker" id="img-e44ee3e8-156">
+                <g transform="translate(90.7,62.05)" id="img-e44ee3e8-157">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-158">
+              <g class="marker" id="img-e44ee3e8-159">
+                <g transform="translate(90.7,57.84)" id="img-e44ee3e8-160">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-161">
+              <g class="marker" id="img-e44ee3e8-162">
+                <g transform="translate(90.5,60.11)" id="img-e44ee3e8-163">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-164">
+              <g class="marker" id="img-e44ee3e8-165">
+                <g transform="translate(89.33,62.05)" id="img-e44ee3e8-166">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-167">
+              <g class="marker" id="img-e44ee3e8-168">
+                <g transform="translate(88.84,62.05)" id="img-e44ee3e8-169">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-170">
+              <g class="marker" id="img-e44ee3e8-171">
+                <g transform="translate(87.27,62.05)" id="img-e44ee3e8-172">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-173">
+              <g class="marker" id="img-e44ee3e8-174">
+                <g transform="translate(87.08,58.17)" id="img-e44ee3e8-175">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-176">
+              <g class="marker" id="img-e44ee3e8-177">
+                <g transform="translate(86.78,63.98)" id="img-e44ee3e8-178">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-179">
+              <g class="marker" id="img-e44ee3e8-180">
+                <g transform="translate(86.59,62.05)" id="img-e44ee3e8-181">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-182">
+              <g class="marker" id="img-e44ee3e8-183">
+                <g transform="translate(84.83,63.98)" id="img-e44ee3e8-184">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-185">
+              <g class="marker" id="img-e44ee3e8-186">
+                <g transform="translate(84.73,62.05)" id="img-e44ee3e8-187">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-188">
+              <g class="marker" id="img-e44ee3e8-189">
+                <g transform="translate(82.48,63.98)" id="img-e44ee3e8-190">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-191">
+              <g class="marker" id="img-e44ee3e8-192">
+                <g transform="translate(82.09,63.98)" id="img-e44ee3e8-193">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-194">
+              <g class="marker" id="img-e44ee3e8-195">
+                <g transform="translate(81.7,63.98)" id="img-e44ee3e8-196">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-197">
+              <g class="marker" id="img-e44ee3e8-198">
+                <g transform="translate(80.92,63.98)" id="img-e44ee3e8-199">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-200">
+              <g class="marker" id="img-e44ee3e8-201">
+                <g transform="translate(80.53,63.98)" id="img-e44ee3e8-202">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-203">
+              <g class="marker" id="img-e44ee3e8-204">
+                <g transform="translate(79.74,63.98)" id="img-e44ee3e8-205">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-206">
+              <g class="marker" id="img-e44ee3e8-207">
+                <g transform="translate(78.57,63.98)" id="img-e44ee3e8-208">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-209">
+              <g class="marker" id="img-e44ee3e8-210">
+                <g transform="translate(78.28,63.98)" id="img-e44ee3e8-211">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-212">
+              <g class="marker" id="img-e44ee3e8-213">
+                <g transform="translate(77.2,63.98)" id="img-e44ee3e8-214">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-215">
+              <g class="marker" id="img-e44ee3e8-216">
+                <g transform="translate(76.32,63.98)" id="img-e44ee3e8-217">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-218">
+              <g class="marker" id="img-e44ee3e8-219">
+                <g transform="translate(75.34,63.98)" id="img-e44ee3e8-220">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-221">
+              <g class="marker" id="img-e44ee3e8-222">
+                <g transform="translate(73.98,63.98)" id="img-e44ee3e8-223">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-224">
+              <g class="marker" id="img-e44ee3e8-225">
+                <g transform="translate(73.29,63.98)" id="img-e44ee3e8-226">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-227">
+              <g class="marker" id="img-e44ee3e8-228">
+                <g transform="translate(72.61,63.98)" id="img-e44ee3e8-229">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-230">
+              <g class="marker" id="img-e44ee3e8-231">
+                <g transform="translate(70.26,63.98)" id="img-e44ee3e8-232">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-233">
+              <g class="marker" id="img-e44ee3e8-234">
+                <g transform="translate(69.77,63.98)" id="img-e44ee3e8-235">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-236">
+              <g class="marker" id="img-e44ee3e8-237">
+                <g transform="translate(69.38,63.98)" id="img-e44ee3e8-238">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-239">
+              <g class="marker" id="img-e44ee3e8-240">
+                <g transform="translate(68.6,63.98)" id="img-e44ee3e8-241">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-242">
+              <g class="marker" id="img-e44ee3e8-243">
+                <g transform="translate(67.82,63.98)" id="img-e44ee3e8-244">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-245">
+              <g class="marker" id="img-e44ee3e8-246">
+                <g transform="translate(67.03,63.98)" id="img-e44ee3e8-247">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-248">
+              <g class="marker" id="img-e44ee3e8-249">
+                <g transform="translate(66.35,63.98)" id="img-e44ee3e8-250">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-251">
+              <g class="marker" id="img-e44ee3e8-252">
+                <g transform="translate(65.66,63.98)" id="img-e44ee3e8-253">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-254">
+              <g class="marker" id="img-e44ee3e8-255">
+                <g transform="translate(64.2,63.98)" id="img-e44ee3e8-256">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-257">
+              <g class="marker" id="img-e44ee3e8-258">
+                <g transform="translate(61.56,63.98)" id="img-e44ee3e8-259">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-260">
+              <g class="marker" id="img-e44ee3e8-261">
+                <g transform="translate(60.68,63.98)" id="img-e44ee3e8-262">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-263">
+              <g class="marker" id="img-e44ee3e8-264">
+                <g transform="translate(60.09,63.98)" id="img-e44ee3e8-265">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-266">
+              <g class="marker" id="img-e44ee3e8-267">
+                <g transform="translate(59.41,63.98)" id="img-e44ee3e8-268">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-269">
+              <g class="marker" id="img-e44ee3e8-270">
+                <g transform="translate(55.79,63.98)" id="img-e44ee3e8-271">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-272">
+              <g class="marker" id="img-e44ee3e8-273">
+                <g transform="translate(53.54,63.98)" id="img-e44ee3e8-274">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-275">
+              <g class="marker" id="img-e44ee3e8-276">
+                <g transform="translate(51.88,63.98)" id="img-e44ee3e8-277">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-278">
+              <g class="marker" id="img-e44ee3e8-279">
+                <g transform="translate(46.99,63.98)" id="img-e44ee3e8-280">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-281">
+              <g class="marker" id="img-e44ee3e8-282">
+                <g transform="translate(46.3,63.98)" id="img-e44ee3e8-283">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-284">
+              <g class="marker" id="img-e44ee3e8-285">
+                <g transform="translate(38.97,63.98)" id="img-e44ee3e8-286">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-287">
+              <g class="marker" id="img-e44ee3e8-288">
+                <g transform="translate(33.49,63.98)" id="img-e44ee3e8-289">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-290">
+              <g class="marker" id="img-e44ee3e8-291">
+                <g transform="translate(22.64,63.98)" id="img-e44ee3e8-292">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-293">
+              <g class="marker" id="img-e44ee3e8-294">
+                <g transform="translate(18.53,63.98)" id="img-e44ee3e8-295">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Cores" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-e44ee3e8-296">
+              <g class="marker" id="img-e44ee3e8-297">
+                <g transform="translate(17.75,63.98)" id="img-e44ee3e8-298">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-299">
+              <g class="marker" id="img-e44ee3e8-300">
+                <g transform="translate(115.22,48.85)" id="img-e44ee3e8-301">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-302">
+              <g class="marker" id="img-e44ee3e8-303">
+                <g transform="translate(114.21,49.11)" id="img-e44ee3e8-304">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-305">
+              <g class="marker" id="img-e44ee3e8-306">
+                <g transform="translate(112.58,48.56)" id="img-e44ee3e8-307">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-308">
+              <g class="marker" id="img-e44ee3e8-309">
+                <g transform="translate(112.38,49.33)" id="img-e44ee3e8-310">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-311">
+              <g class="marker" id="img-e44ee3e8-312">
+                <g transform="translate(110.73,49.11)" id="img-e44ee3e8-313">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-314">
+              <g class="marker" id="img-e44ee3e8-315">
+                <g transform="translate(110.71,50.18)" id="img-e44ee3e8-316">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-317">
+              <g class="marker" id="img-e44ee3e8-318">
+                <g transform="translate(110.54,49.48)" id="img-e44ee3e8-319">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-320">
+              <g class="marker" id="img-e44ee3e8-321">
+                <g transform="translate(108.51,48.62)" id="img-e44ee3e8-322">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-323">
+              <g class="marker" id="img-e44ee3e8-324">
+                <g transform="translate(108.17,50.08)" id="img-e44ee3e8-325">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-326">
+              <g class="marker" id="img-e44ee3e8-327">
+                <g transform="translate(105.09,50.18)" id="img-e44ee3e8-328">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-329">
+              <g class="marker" id="img-e44ee3e8-330">
+                <g transform="translate(105.07,50.28)" id="img-e44ee3e8-331">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-332">
+              <g class="marker" id="img-e44ee3e8-333">
+                <g transform="translate(105.05,50.28)" id="img-e44ee3e8-334">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-335">
+              <g class="marker" id="img-e44ee3e8-336">
+                <g transform="translate(104.44,49.18)" id="img-e44ee3e8-337">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-338">
+              <g class="marker" id="img-e44ee3e8-339">
+                <g transform="translate(103.75,49.89)" id="img-e44ee3e8-340">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-341">
+              <g class="marker" id="img-e44ee3e8-342">
+                <g transform="translate(103.02,50.39)" id="img-e44ee3e8-343">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-344">
+              <g class="marker" id="img-e44ee3e8-345">
+                <g transform="translate(102.21,48.05)" id="img-e44ee3e8-346">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-347">
+              <g class="marker" id="img-e44ee3e8-348">
+                <g transform="translate(101.19,50.73)" id="img-e44ee3e8-349">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-350">
+              <g class="marker" id="img-e44ee3e8-351">
+                <g transform="translate(100.78,49.18)" id="img-e44ee3e8-352">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-353">
+              <g class="marker" id="img-e44ee3e8-354">
+                <g transform="translate(100.19,50.39)" id="img-e44ee3e8-355">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-356">
+              <g class="marker" id="img-e44ee3e8-357">
+                <g transform="translate(100.17,50.18)" id="img-e44ee3e8-358">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-359">
+              <g class="marker" id="img-e44ee3e8-360">
+                <g transform="translate(99.16,51.26)" id="img-e44ee3e8-361">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-362">
+              <g class="marker" id="img-e44ee3e8-363">
+                <g transform="translate(97.98,50.39)" id="img-e44ee3e8-364">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-365">
+              <g class="marker" id="img-e44ee3e8-366">
+                <g transform="translate(97.65,50.39)" id="img-e44ee3e8-367">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-368">
+              <g class="marker" id="img-e44ee3e8-369">
+                <g transform="translate(96.07,49.66)" id="img-e44ee3e8-370">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-371">
+              <g class="marker" id="img-e44ee3e8-372">
+                <g transform="translate(94.61,50.34)" id="img-e44ee3e8-373">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-374">
+              <g class="marker" id="img-e44ee3e8-375">
+                <g transform="translate(94.41,51.24)" id="img-e44ee3e8-376">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-377">
+              <g class="marker" id="img-e44ee3e8-378">
+                <g transform="translate(94.22,50.49)" id="img-e44ee3e8-379">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-380">
+              <g class="marker" id="img-e44ee3e8-381">
+                <g transform="translate(93.82,50.34)" id="img-e44ee3e8-382">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-383">
+              <g class="marker" id="img-e44ee3e8-384">
+                <g transform="translate(93.63,51.24)" id="img-e44ee3e8-385">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-386">
+              <g class="marker" id="img-e44ee3e8-387">
+                <g transform="translate(92.16,52.3)" id="img-e44ee3e8-388">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-389">
+              <g class="marker" id="img-e44ee3e8-390">
+                <g transform="translate(91.67,51.24)" id="img-e44ee3e8-391">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-392">
+              <g class="marker" id="img-e44ee3e8-393">
+                <g transform="translate(91.58,51.85)" id="img-e44ee3e8-394">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-395">
+              <g class="marker" id="img-e44ee3e8-396">
+                <g transform="translate(91.18,51.55)" id="img-e44ee3e8-397">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-398">
+              <g class="marker" id="img-e44ee3e8-399">
+                <g transform="translate(90.99,54.33)" id="img-e44ee3e8-400">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-401">
+              <g class="marker" id="img-e44ee3e8-402">
+                <g transform="translate(90.79,51.09)" id="img-e44ee3e8-403">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-404">
+              <g class="marker" id="img-e44ee3e8-405">
+                <g transform="translate(90.5,50.34)" id="img-e44ee3e8-406">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-407">
+              <g class="marker" id="img-e44ee3e8-408">
+                <g transform="translate(89.33,54.33)" id="img-e44ee3e8-409">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-410">
+              <g class="marker" id="img-e44ee3e8-411">
+                <g transform="translate(89.13,51.92)" id="img-e44ee3e8-412">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-413">
+              <g class="marker" id="img-e44ee3e8-414">
+                <g transform="translate(89.03,50.49)" id="img-e44ee3e8-415">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-416">
+              <g class="marker" id="img-e44ee3e8-417">
+                <g transform="translate(89.03,52.3)" id="img-e44ee3e8-418">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-419">
+              <g class="marker" id="img-e44ee3e8-420">
+                <g transform="translate(88.94,50.42)" id="img-e44ee3e8-421">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-422">
+              <g class="marker" id="img-e44ee3e8-423">
+                <g transform="translate(87.27,55.01)" id="img-e44ee3e8-424">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-425">
+              <g class="marker" id="img-e44ee3e8-426">
+                <g transform="translate(87.08,52)" id="img-e44ee3e8-427">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-428">
+              <g class="marker" id="img-e44ee3e8-429">
+                <g transform="translate(86.78,51.55)" id="img-e44ee3e8-430">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-431">
+              <g class="marker" id="img-e44ee3e8-432">
+                <g transform="translate(86.59,50.42)" id="img-e44ee3e8-433">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-434">
+              <g class="marker" id="img-e44ee3e8-435">
+                <g transform="translate(84.83,51.09)" id="img-e44ee3e8-436">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-437">
+              <g class="marker" id="img-e44ee3e8-438">
+                <g transform="translate(84.73,50.72)" id="img-e44ee3e8-439">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-440">
+              <g class="marker" id="img-e44ee3e8-441">
+                <g transform="translate(84.73,51.47)" id="img-e44ee3e8-442">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-443">
+              <g class="marker" id="img-e44ee3e8-444">
+                <g transform="translate(82.38,51.47)" id="img-e44ee3e8-445">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-446">
+              <g class="marker" id="img-e44ee3e8-447">
+                <g transform="translate(82.09,51.92)" id="img-e44ee3e8-448">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-449">
+              <g class="marker" id="img-e44ee3e8-450">
+                <g transform="translate(81.9,49.89)" id="img-e44ee3e8-451">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-452">
+              <g class="marker" id="img-e44ee3e8-453">
+                <g transform="translate(80.82,51.17)" id="img-e44ee3e8-454">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-455">
+              <g class="marker" id="img-e44ee3e8-456">
+                <g transform="translate(80.72,52.45)" id="img-e44ee3e8-457">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-458">
+              <g class="marker" id="img-e44ee3e8-459">
+                <g transform="translate(79.84,53.13)" id="img-e44ee3e8-460">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-461">
+              <g class="marker" id="img-e44ee3e8-462">
+                <g transform="translate(78.67,52.68)" id="img-e44ee3e8-463">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-464">
+              <g class="marker" id="img-e44ee3e8-465">
+                <g transform="translate(78.38,51.17)" id="img-e44ee3e8-466">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-467">
+              <g class="marker" id="img-e44ee3e8-468">
+                <g transform="translate(77.4,52)" id="img-e44ee3e8-469">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-470">
+              <g class="marker" id="img-e44ee3e8-471">
+                <g transform="translate(77.2,52.07)" id="img-e44ee3e8-472">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-473">
+              <g class="marker" id="img-e44ee3e8-474">
+                <g transform="translate(76.32,55.62)" id="img-e44ee3e8-475">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-476">
+              <g class="marker" id="img-e44ee3e8-477">
+                <g transform="translate(76.32,53.13)" id="img-e44ee3e8-478">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-479">
+              <g class="marker" id="img-e44ee3e8-480">
+                <g transform="translate(75.34,53.96)" id="img-e44ee3e8-481">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-482">
+              <g class="marker" id="img-e44ee3e8-483">
+                <g transform="translate(73.88,55.47)" id="img-e44ee3e8-484">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-485">
+              <g class="marker" id="img-e44ee3e8-486">
+                <g transform="translate(73.88,56.07)" id="img-e44ee3e8-487">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-488">
+              <g class="marker" id="img-e44ee3e8-489">
+                <g transform="translate(73.29,56.6)" id="img-e44ee3e8-490">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-491">
+              <g class="marker" id="img-e44ee3e8-492">
+                <g transform="translate(73.29,54.49)" id="img-e44ee3e8-493">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-494">
+              <g class="marker" id="img-e44ee3e8-495">
+                <g transform="translate(72.7,51.39)" id="img-e44ee3e8-496">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-497">
+              <g class="marker" id="img-e44ee3e8-498">
+                <g transform="translate(70.16,54.26)" id="img-e44ee3e8-499">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-500">
+              <g class="marker" id="img-e44ee3e8-501">
+                <g transform="translate(69.97,56.07)" id="img-e44ee3e8-502">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-503">
+              <g class="marker" id="img-e44ee3e8-504">
+                <g transform="translate(69.77,53.96)" id="img-e44ee3e8-505">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-506">
+              <g class="marker" id="img-e44ee3e8-507">
+                <g transform="translate(69.58,55.01)" id="img-e44ee3e8-508">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-509">
+              <g class="marker" id="img-e44ee3e8-510">
+                <g transform="translate(68.6,53.43)" id="img-e44ee3e8-511">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-512">
+              <g class="marker" id="img-e44ee3e8-513">
+                <g transform="translate(67.72,57.2)" id="img-e44ee3e8-514">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-515">
+              <g class="marker" id="img-e44ee3e8-516">
+                <g transform="translate(67.52,57.5)" id="img-e44ee3e8-517">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-518">
+              <g class="marker" id="img-e44ee3e8-519">
+                <g transform="translate(67.42,54.41)" id="img-e44ee3e8-520">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-521">
+              <g class="marker" id="img-e44ee3e8-522">
+                <g transform="translate(67.13,54.18)" id="img-e44ee3e8-523">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-524">
+              <g class="marker" id="img-e44ee3e8-525">
+                <g transform="translate(66.25,56.22)" id="img-e44ee3e8-526">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-527">
+              <g class="marker" id="img-e44ee3e8-528">
+                <g transform="translate(65.66,53.05)" id="img-e44ee3e8-529">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-530">
+              <g class="marker" id="img-e44ee3e8-531">
+                <g transform="translate(64.2,60.89)" id="img-e44ee3e8-532">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-533">
+              <g class="marker" id="img-e44ee3e8-534">
+                <g transform="translate(64.2,54.64)" id="img-e44ee3e8-535">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-536">
+              <g class="marker" id="img-e44ee3e8-537">
+                <g transform="translate(61.56,56.75)" id="img-e44ee3e8-538">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-539">
+              <g class="marker" id="img-e44ee3e8-540">
+                <g transform="translate(61.56,60.89)" id="img-e44ee3e8-541">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-542">
+              <g class="marker" id="img-e44ee3e8-543">
+                <g transform="translate(60.78,54.03)" id="img-e44ee3e8-544">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-545">
+              <g class="marker" id="img-e44ee3e8-546">
+                <g transform="translate(60.09,56.52)" id="img-e44ee3e8-547">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-548">
+              <g class="marker" id="img-e44ee3e8-549">
+                <g transform="translate(59.5,59.01)" id="img-e44ee3e8-550">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-551">
+              <g class="marker" id="img-e44ee3e8-552">
+                <g transform="translate(55.79,60.51)" id="img-e44ee3e8-553">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-554">
+              <g class="marker" id="img-e44ee3e8-555">
+                <g transform="translate(53.54,61.12)" id="img-e44ee3e8-556">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-557">
+              <g class="marker" id="img-e44ee3e8-558">
+                <g transform="translate(51.88,60.14)" id="img-e44ee3e8-559">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-560">
+              <g class="marker" id="img-e44ee3e8-561">
+                <g transform="translate(46.99,60.89)" id="img-e44ee3e8-562">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-563">
+              <g class="marker" id="img-e44ee3e8-564">
+                <g transform="translate(46.3,62.78)" id="img-e44ee3e8-565">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-566">
+              <g class="marker" id="img-e44ee3e8-567">
+                <g transform="translate(38.97,60.89)" id="img-e44ee3e8-568">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-569">
+              <g class="marker" id="img-e44ee3e8-570">
+                <g transform="translate(33.4,62.47)" id="img-e44ee3e8-571">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-572">
+              <g class="marker" id="img-e44ee3e8-573">
+                <g transform="translate(22.74,64.21)" id="img-e44ee3e8-574">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-575">
+              <g class="marker" id="img-e44ee3e8-576">
+                <g transform="translate(18.63,66.39)" id="img-e44ee3e8-577">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Power_(Watts)" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-e44ee3e8-578">
+              <g class="marker" id="img-e44ee3e8-579">
+                <g transform="translate(17.75,66.24)" id="img-e44ee3e8-580">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-581">
+              <g class="marker" id="img-e44ee3e8-582">
+                <g transform="translate(115.22,42.42)" id="img-e44ee3e8-583">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-584">
+              <g class="marker" id="img-e44ee3e8-585">
+                <g transform="translate(114.21,41.91)" id="img-e44ee3e8-586">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-587">
+              <g class="marker" id="img-e44ee3e8-588">
+                <g transform="translate(112.58,44.18)" id="img-e44ee3e8-589">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-590">
+              <g class="marker" id="img-e44ee3e8-591">
+                <g transform="translate(112.38,41.27)" id="img-e44ee3e8-592">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-593">
+              <g class="marker" id="img-e44ee3e8-594">
+                <g transform="translate(110.73,42.13)" id="img-e44ee3e8-595">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-596">
+              <g class="marker" id="img-e44ee3e8-597">
+                <g transform="translate(110.71,42.61)" id="img-e44ee3e8-598">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-599">
+              <g class="marker" id="img-e44ee3e8-600">
+                <g transform="translate(110.54,42.48)" id="img-e44ee3e8-601">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-602">
+              <g class="marker" id="img-e44ee3e8-603">
+                <g transform="translate(108.86,40.81)" id="img-e44ee3e8-604">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-605">
+              <g class="marker" id="img-e44ee3e8-606">
+                <g transform="translate(108.51,43.55)" id="img-e44ee3e8-607">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-608">
+              <g class="marker" id="img-e44ee3e8-609">
+                <g transform="translate(108.17,42.48)" id="img-e44ee3e8-610">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-611">
+              <g class="marker" id="img-e44ee3e8-612">
+                <g transform="translate(105.09,42.36)" id="img-e44ee3e8-613">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-614">
+              <g class="marker" id="img-e44ee3e8-615">
+                <g transform="translate(105.07,42.02)" id="img-e44ee3e8-616">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-617">
+              <g class="marker" id="img-e44ee3e8-618">
+                <g transform="translate(105.05,41.44)" id="img-e44ee3e8-619">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-620">
+              <g class="marker" id="img-e44ee3e8-621">
+                <g transform="translate(104.44,41.03)" id="img-e44ee3e8-622">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-623">
+              <g class="marker" id="img-e44ee3e8-624">
+                <g transform="translate(103.75,41.81)" id="img-e44ee3e8-625">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-626">
+              <g class="marker" id="img-e44ee3e8-627">
+                <g transform="translate(103.02,41.91)" id="img-e44ee3e8-628">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-629">
+              <g class="marker" id="img-e44ee3e8-630">
+                <g transform="translate(102.21,44.18)" id="img-e44ee3e8-631">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-632">
+              <g class="marker" id="img-e44ee3e8-633">
+                <g transform="translate(101.19,42.13)" id="img-e44ee3e8-634">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-635">
+              <g class="marker" id="img-e44ee3e8-636">
+                <g transform="translate(100.78,41.03)" id="img-e44ee3e8-637">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-638">
+              <g class="marker" id="img-e44ee3e8-639">
+                <g transform="translate(100.19,41.71)" id="img-e44ee3e8-640">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-641">
+              <g class="marker" id="img-e44ee3e8-642">
+                <g transform="translate(100.17,41.53)" id="img-e44ee3e8-643">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-644">
+              <g class="marker" id="img-e44ee3e8-645">
+                <g transform="translate(99.16,41.62)" id="img-e44ee3e8-646">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-647">
+              <g class="marker" id="img-e44ee3e8-648">
+                <g transform="translate(97.98,42.24)" id="img-e44ee3e8-649">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-650">
+              <g class="marker" id="img-e44ee3e8-651">
+                <g transform="translate(97.65,41.21)" id="img-e44ee3e8-652">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-653">
+              <g class="marker" id="img-e44ee3e8-654">
+                <g transform="translate(95.68,42.35)" id="img-e44ee3e8-655">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-656">
+              <g class="marker" id="img-e44ee3e8-657">
+                <g transform="translate(94.7,41.37)" id="img-e44ee3e8-658">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-659">
+              <g class="marker" id="img-e44ee3e8-660">
+                <g transform="translate(94.61,41.97)" id="img-e44ee3e8-661">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-662">
+              <g class="marker" id="img-e44ee3e8-663">
+                <g transform="translate(94.12,41.97)" id="img-e44ee3e8-664">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-665">
+              <g class="marker" id="img-e44ee3e8-666">
+                <g transform="translate(93.82,41.37)" id="img-e44ee3e8-667">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-668">
+              <g class="marker" id="img-e44ee3e8-669">
+                <g transform="translate(93.63,42.12)" id="img-e44ee3e8-670">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-671">
+              <g class="marker" id="img-e44ee3e8-672">
+                <g transform="translate(92.16,41.6)" id="img-e44ee3e8-673">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-674">
+              <g class="marker" id="img-e44ee3e8-675">
+                <g transform="translate(91.58,42.35)" id="img-e44ee3e8-676">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-677">
+              <g class="marker" id="img-e44ee3e8-678">
+                <g transform="translate(91.58,42.73)" id="img-e44ee3e8-679">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-680">
+              <g class="marker" id="img-e44ee3e8-681">
+                <g transform="translate(91.18,43.71)" id="img-e44ee3e8-682">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-683">
+              <g class="marker" id="img-e44ee3e8-684">
+                <g transform="translate(90.89,42.73)" id="img-e44ee3e8-685">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-686">
+              <g class="marker" id="img-e44ee3e8-687">
+                <g transform="translate(90.7,40.77)" id="img-e44ee3e8-688">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-689">
+              <g class="marker" id="img-e44ee3e8-690">
+                <g transform="translate(90.7,40.39)" id="img-e44ee3e8-691">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-692">
+              <g class="marker" id="img-e44ee3e8-693">
+                <g transform="translate(90.5,41.67)" id="img-e44ee3e8-694">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-695">
+              <g class="marker" id="img-e44ee3e8-696">
+                <g transform="translate(89.33,42.35)" id="img-e44ee3e8-697">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-698">
+              <g class="marker" id="img-e44ee3e8-699">
+                <g transform="translate(89.23,41.9)" id="img-e44ee3e8-700">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-701">
+              <g class="marker" id="img-e44ee3e8-702">
+                <g transform="translate(88.94,41.97)" id="img-e44ee3e8-703">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-704">
+              <g class="marker" id="img-e44ee3e8-705">
+                <g transform="translate(88.94,41.07)" id="img-e44ee3e8-706">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-707">
+              <g class="marker" id="img-e44ee3e8-708">
+                <g transform="translate(87.18,42.43)" id="img-e44ee3e8-709">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-710">
+              <g class="marker" id="img-e44ee3e8-711">
+                <g transform="translate(87.08,44.16)" id="img-e44ee3e8-712">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-713">
+              <g class="marker" id="img-e44ee3e8-714">
+                <g transform="translate(86.88,41.82)" id="img-e44ee3e8-715">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-716">
+              <g class="marker" id="img-e44ee3e8-717">
+                <g transform="translate(86.59,41.45)" id="img-e44ee3e8-718">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-719">
+              <g class="marker" id="img-e44ee3e8-720">
+                <g transform="translate(84.83,41.07)" id="img-e44ee3e8-721">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-722">
+              <g class="marker" id="img-e44ee3e8-723">
+                <g transform="translate(84.73,42.88)" id="img-e44ee3e8-724">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-725">
+              <g class="marker" id="img-e44ee3e8-726">
+                <g transform="translate(84.73,41.97)" id="img-e44ee3e8-727">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-728">
+              <g class="marker" id="img-e44ee3e8-729">
+                <g transform="translate(82.29,43.03)" id="img-e44ee3e8-730">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-731">
+              <g class="marker" id="img-e44ee3e8-732">
+                <g transform="translate(82.09,42.5)" id="img-e44ee3e8-733">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-734">
+              <g class="marker" id="img-e44ee3e8-735">
+                <g transform="translate(81.9,44.23)" id="img-e44ee3e8-736">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-737">
+              <g class="marker" id="img-e44ee3e8-738">
+                <g transform="translate(80.82,44.69)" id="img-e44ee3e8-739">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-740">
+              <g class="marker" id="img-e44ee3e8-741">
+                <g transform="translate(80.62,43.03)" id="img-e44ee3e8-742">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-743">
+              <g class="marker" id="img-e44ee3e8-744">
+                <g transform="translate(79.84,42.43)" id="img-e44ee3e8-745">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-746">
+              <g class="marker" id="img-e44ee3e8-747">
+                <g transform="translate(78.57,43.71)" id="img-e44ee3e8-748">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-749">
+              <g class="marker" id="img-e44ee3e8-750">
+                <g transform="translate(78.38,45.29)" id="img-e44ee3e8-751">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-752">
+              <g class="marker" id="img-e44ee3e8-753">
+                <g transform="translate(77.4,42.73)" id="img-e44ee3e8-754">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-755">
+              <g class="marker" id="img-e44ee3e8-756">
+                <g transform="translate(77.2,44.99)" id="img-e44ee3e8-757">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-758">
+              <g class="marker" id="img-e44ee3e8-759">
+                <g transform="translate(76.32,44.69)" id="img-e44ee3e8-760">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-761">
+              <g class="marker" id="img-e44ee3e8-762">
+                <g transform="translate(75.34,45.52)" id="img-e44ee3e8-763">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-764">
+              <g class="marker" id="img-e44ee3e8-765">
+                <g transform="translate(73.88,46.57)" id="img-e44ee3e8-766">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-767">
+              <g class="marker" id="img-e44ee3e8-768">
+                <g transform="translate(73.88,46.87)" id="img-e44ee3e8-769">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-770">
+              <g class="marker" id="img-e44ee3e8-771">
+                <g transform="translate(73.29,47.25)" id="img-e44ee3e8-772">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-773">
+              <g class="marker" id="img-e44ee3e8-774">
+                <g transform="translate(73.19,48.08)" id="img-e44ee3e8-775">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-776">
+              <g class="marker" id="img-e44ee3e8-777">
+                <g transform="translate(72.61,46.65)" id="img-e44ee3e8-778">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-779">
+              <g class="marker" id="img-e44ee3e8-780">
+                <g transform="translate(70.16,48.08)" id="img-e44ee3e8-781">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-782">
+              <g class="marker" id="img-e44ee3e8-783">
+                <g transform="translate(69.97,48.76)" id="img-e44ee3e8-784">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-785">
+              <g class="marker" id="img-e44ee3e8-786">
+                <g transform="translate(69.77,46.42)" id="img-e44ee3e8-787">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-788">
+              <g class="marker" id="img-e44ee3e8-789">
+                <g transform="translate(69.58,48.53)" id="img-e44ee3e8-790">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-791">
+              <g class="marker" id="img-e44ee3e8-792">
+                <g transform="translate(68.5,46.57)" id="img-e44ee3e8-793">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-794">
+              <g class="marker" id="img-e44ee3e8-795">
+                <g transform="translate(67.72,51.39)" id="img-e44ee3e8-796">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-797">
+              <g class="marker" id="img-e44ee3e8-798">
+                <g transform="translate(67.52,49.21)" id="img-e44ee3e8-799">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-800">
+              <g class="marker" id="img-e44ee3e8-801">
+                <g transform="translate(67.03,49.21)" id="img-e44ee3e8-802">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-803">
+              <g class="marker" id="img-e44ee3e8-804">
+                <g transform="translate(66.25,51.39)" id="img-e44ee3e8-805">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-806">
+              <g class="marker" id="img-e44ee3e8-807">
+                <g transform="translate(65.66,48.08)" id="img-e44ee3e8-808">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-809">
+              <g class="marker" id="img-e44ee3e8-810">
+                <g transform="translate(64.2,48.08)" id="img-e44ee3e8-811">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-812">
+              <g class="marker" id="img-e44ee3e8-813">
+                <g transform="translate(64.2,49.96)" id="img-e44ee3e8-814">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-815">
+              <g class="marker" id="img-e44ee3e8-816">
+                <g transform="translate(61.56,53.66)" id="img-e44ee3e8-817">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-818">
+              <g class="marker" id="img-e44ee3e8-819">
+                <g transform="translate(61.56,52.22)" id="img-e44ee3e8-820">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-821">
+              <g class="marker" id="img-e44ee3e8-822">
+                <g transform="translate(60.78,49.21)" id="img-e44ee3e8-823">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-824">
+              <g class="marker" id="img-e44ee3e8-825">
+                <g transform="translate(60.09,51.09)" id="img-e44ee3e8-826">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-827">
+              <g class="marker" id="img-e44ee3e8-828">
+                <g transform="translate(60.09,52.53)" id="img-e44ee3e8-829">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-830">
+              <g class="marker" id="img-e44ee3e8-831">
+                <g transform="translate(59.5,52.3)" id="img-e44ee3e8-832">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-833">
+              <g class="marker" id="img-e44ee3e8-834">
+                <g transform="translate(55.79,54.18)" id="img-e44ee3e8-835">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-836">
+              <g class="marker" id="img-e44ee3e8-837">
+                <g transform="translate(53.54,55.01)" id="img-e44ee3e8-838">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-839">
+              <g class="marker" id="img-e44ee3e8-840">
+                <g transform="translate(51.88,53.66)" id="img-e44ee3e8-841">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-842">
+              <g class="marker" id="img-e44ee3e8-843">
+                <g transform="translate(46.99,56.22)" id="img-e44ee3e8-844">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-845">
+              <g class="marker" id="img-e44ee3e8-846">
+                <g transform="translate(46.3,56.22)" id="img-e44ee3e8-847">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-848">
+              <g class="marker" id="img-e44ee3e8-849">
+                <g transform="translate(38.97,58.93)" id="img-e44ee3e8-850">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-851">
+              <g class="marker" id="img-e44ee3e8-852">
+                <g transform="translate(33.4,59.46)" id="img-e44ee3e8-853">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-854">
+              <g class="marker" id="img-e44ee3e8-855">
+                <g transform="translate(22.74,62.02)" id="img-e44ee3e8-856">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-857">
+              <g class="marker" id="img-e44ee3e8-858">
+                <g transform="translate(18.53,65.87)" id="img-e44ee3e8-859">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Frequency__(MHz)" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-e44ee3e8-860">
+              <g class="marker" id="img-e44ee3e8-861">
+                <g transform="translate(17.75,64.96)" id="img-e44ee3e8-862">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-863">
+              <g class="marker" id="img-e44ee3e8-864">
+                <g transform="translate(115.22,32.51)" id="img-e44ee3e8-865">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-866">
+              <g class="marker" id="img-e44ee3e8-867">
+                <g transform="translate(114.21,32.09)" id="img-e44ee3e8-868">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-869">
+              <g class="marker" id="img-e44ee3e8-870">
+                <g transform="translate(110.73,32.32)" id="img-e44ee3e8-871">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-872">
+              <g class="marker" id="img-e44ee3e8-873">
+                <g transform="translate(110.71,32.52)" id="img-e44ee3e8-874">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-875">
+              <g class="marker" id="img-e44ee3e8-876">
+                <g transform="translate(108.17,32.67)" id="img-e44ee3e8-877">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-878">
+              <g class="marker" id="img-e44ee3e8-879">
+                <g transform="translate(105.09,32.98)" id="img-e44ee3e8-880">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-881">
+              <g class="marker" id="img-e44ee3e8-882">
+                <g transform="translate(105.07,33.03)" id="img-e44ee3e8-883">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-884">
+              <g class="marker" id="img-e44ee3e8-885">
+                <g transform="translate(105.05,32.98)" id="img-e44ee3e8-886">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-887">
+              <g class="marker" id="img-e44ee3e8-888">
+                <g transform="translate(103.75,33.3)" id="img-e44ee3e8-889">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-890">
+              <g class="marker" id="img-e44ee3e8-891">
+                <g transform="translate(103.02,33.3)" id="img-e44ee3e8-892">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-893">
+              <g class="marker" id="img-e44ee3e8-894">
+                <g transform="translate(101.19,34.92)" id="img-e44ee3e8-895">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-896">
+              <g class="marker" id="img-e44ee3e8-897">
+                <g transform="translate(100.19,33.3)" id="img-e44ee3e8-898">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-899">
+              <g class="marker" id="img-e44ee3e8-900">
+                <g transform="translate(100.17,35.09)" id="img-e44ee3e8-901">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-902">
+              <g class="marker" id="img-e44ee3e8-903">
+                <g transform="translate(99.16,34.92)" id="img-e44ee3e8-904">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-905">
+              <g class="marker" id="img-e44ee3e8-906">
+                <g transform="translate(97.98,34.45)" id="img-e44ee3e8-907">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-908">
+              <g class="marker" id="img-e44ee3e8-909">
+                <g transform="translate(97.65,33.99)" id="img-e44ee3e8-910">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-911">
+              <g class="marker" id="img-e44ee3e8-912">
+                <g transform="translate(96.31,35.61)" id="img-e44ee3e8-913">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-914">
+              <g class="marker" id="img-e44ee3e8-915">
+                <g transform="translate(95.9,34.25)" id="img-e44ee3e8-916">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-917">
+              <g class="marker" id="img-e44ee3e8-918">
+                <g transform="translate(94.68,34.55)" id="img-e44ee3e8-919">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-920">
+              <g class="marker" id="img-e44ee3e8-921">
+                <g transform="translate(94.27,36.17)" id="img-e44ee3e8-922">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-923">
+              <g class="marker" id="img-e44ee3e8-924">
+                <g transform="translate(93.87,34.63)" id="img-e44ee3e8-925">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-926">
+              <g class="marker" id="img-e44ee3e8-927">
+                <g transform="translate(91.58,36.25)" id="img-e44ee3e8-928">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-929">
+              <g class="marker" id="img-e44ee3e8-930">
+                <g transform="translate(90.89,37.3)" id="img-e44ee3e8-931">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-932">
+              <g class="marker" id="img-e44ee3e8-933">
+                <g transform="translate(90.79,35.04)" id="img-e44ee3e8-934">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-935">
+              <g class="marker" id="img-e44ee3e8-936">
+                <g transform="translate(89.33,35.87)" id="img-e44ee3e8-937">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-938">
+              <g class="marker" id="img-e44ee3e8-939">
+                <g transform="translate(89.13,34.74)" id="img-e44ee3e8-940">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-941">
+              <g class="marker" id="img-e44ee3e8-942">
+                <g transform="translate(89.03,36.17)" id="img-e44ee3e8-943">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-944">
+              <g class="marker" id="img-e44ee3e8-945">
+                <g transform="translate(88.94,36.47)" id="img-e44ee3e8-946">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-947">
+              <g class="marker" id="img-e44ee3e8-948">
+                <g transform="translate(86.88,36.17)" id="img-e44ee3e8-949">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-950">
+              <g class="marker" id="img-e44ee3e8-951">
+                <g transform="translate(86.69,36.77)" id="img-e44ee3e8-952">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-953">
+              <g class="marker" id="img-e44ee3e8-954">
+                <g transform="translate(84.73,36.17)" id="img-e44ee3e8-955">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-956">
+              <g class="marker" id="img-e44ee3e8-957">
+                <g transform="translate(84.73,36.85)" id="img-e44ee3e8-958">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-959">
+              <g class="marker" id="img-e44ee3e8-960">
+                <g transform="translate(84.73,36.47)" id="img-e44ee3e8-961">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-962">
+              <g class="marker" id="img-e44ee3e8-963">
+                <g transform="translate(82.38,37.45)" id="img-e44ee3e8-964">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-965">
+              <g class="marker" id="img-e44ee3e8-966">
+                <g transform="translate(82.09,37.9)" id="img-e44ee3e8-967">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-968">
+              <g class="marker" id="img-e44ee3e8-969">
+                <g transform="translate(81.9,38.2)" id="img-e44ee3e8-970">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-971">
+              <g class="marker" id="img-e44ee3e8-972">
+                <g transform="translate(80.82,38.43)" id="img-e44ee3e8-973">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-974">
+              <g class="marker" id="img-e44ee3e8-975">
+                <g transform="translate(80.72,38.66)" id="img-e44ee3e8-976">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-977">
+              <g class="marker" id="img-e44ee3e8-978">
+                <g transform="translate(79.84,38.43)" id="img-e44ee3e8-979">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-980">
+              <g class="marker" id="img-e44ee3e8-981">
+                <g transform="translate(78.57,39.56)" id="img-e44ee3e8-982">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-983">
+              <g class="marker" id="img-e44ee3e8-984">
+                <g transform="translate(78.38,40.62)" id="img-e44ee3e8-985">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-986">
+              <g class="marker" id="img-e44ee3e8-987">
+                <g transform="translate(77.4,39.56)" id="img-e44ee3e8-988">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-989">
+              <g class="marker" id="img-e44ee3e8-990">
+                <g transform="translate(77.2,39.94)" id="img-e44ee3e8-991">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-992">
+              <g class="marker" id="img-e44ee3e8-993">
+                <g transform="translate(76.32,40.32)" id="img-e44ee3e8-994">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-995">
+              <g class="marker" id="img-e44ee3e8-996">
+                <g transform="translate(75.34,41.29)" id="img-e44ee3e8-997">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-998">
+              <g class="marker" id="img-e44ee3e8-999">
+                <g transform="translate(73.98,42.95)" id="img-e44ee3e8-1000">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1001">
+              <g class="marker" id="img-e44ee3e8-1002">
+                <g transform="translate(73.88,41.9)" id="img-e44ee3e8-1003">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1004">
+              <g class="marker" id="img-e44ee3e8-1005">
+                <g transform="translate(73.29,44.31)" id="img-e44ee3e8-1006">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1007">
+              <g class="marker" id="img-e44ee3e8-1008">
+                <g transform="translate(73.29,42.35)" id="img-e44ee3e8-1009">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1010">
+              <g class="marker" id="img-e44ee3e8-1011">
+                <g transform="translate(72.7,41.14)" id="img-e44ee3e8-1012">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1013">
+              <g class="marker" id="img-e44ee3e8-1014">
+                <g transform="translate(70.16,43.63)" id="img-e44ee3e8-1015">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1016">
+              <g class="marker" id="img-e44ee3e8-1017">
+                <g transform="translate(70.06,45.21)" id="img-e44ee3e8-1018">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1019">
+              <g class="marker" id="img-e44ee3e8-1020">
+                <g transform="translate(69.77,43.1)" id="img-e44ee3e8-1021">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1022">
+              <g class="marker" id="img-e44ee3e8-1023">
+                <g transform="translate(69.58,44.01)" id="img-e44ee3e8-1024">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1025">
+              <g class="marker" id="img-e44ee3e8-1026">
+                <g transform="translate(68.6,43.03)" id="img-e44ee3e8-1027">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1028">
+              <g class="marker" id="img-e44ee3e8-1029">
+                <g transform="translate(67.52,43.78)" id="img-e44ee3e8-1030">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1031">
+              <g class="marker" id="img-e44ee3e8-1032">
+                <g transform="translate(67.52,45.82)" id="img-e44ee3e8-1033">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1034">
+              <g class="marker" id="img-e44ee3e8-1035">
+                <g transform="translate(67.13,44.76)" id="img-e44ee3e8-1036">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1037">
+              <g class="marker" id="img-e44ee3e8-1038">
+                <g transform="translate(67.13,44.91)" id="img-e44ee3e8-1039">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1040">
+              <g class="marker" id="img-e44ee3e8-1041">
+                <g transform="translate(66.25,47.17)" id="img-e44ee3e8-1042">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1043">
+              <g class="marker" id="img-e44ee3e8-1044">
+                <g transform="translate(65.66,44.61)" id="img-e44ee3e8-1045">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1046">
+              <g class="marker" id="img-e44ee3e8-1047">
+                <g transform="translate(64.3,46.12)" id="img-e44ee3e8-1048">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1049">
+              <g class="marker" id="img-e44ee3e8-1050">
+                <g transform="translate(64.3,47.63)" id="img-e44ee3e8-1051">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1052">
+              <g class="marker" id="img-e44ee3e8-1053">
+                <g transform="translate(61.56,48.68)" id="img-e44ee3e8-1054">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1055">
+              <g class="marker" id="img-e44ee3e8-1056">
+                <g transform="translate(60.78,47.85)" id="img-e44ee3e8-1057">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1058">
+              <g class="marker" id="img-e44ee3e8-1059">
+                <g transform="translate(60.09,48.3)" id="img-e44ee3e8-1060">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1061">
+              <g class="marker" id="img-e44ee3e8-1062">
+                <g transform="translate(60.09,49.51)" id="img-e44ee3e8-1063">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1064">
+              <g class="marker" id="img-e44ee3e8-1065">
+                <g transform="translate(59.5,51.39)" id="img-e44ee3e8-1066">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1067">
+              <g class="marker" id="img-e44ee3e8-1068">
+                <g transform="translate(55.89,52.75)" id="img-e44ee3e8-1069">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1070">
+              <g class="marker" id="img-e44ee3e8-1071">
+                <g transform="translate(53.54,53.05)" id="img-e44ee3e8-1072">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Single_Thread__Performance__(SpecINT_x_10³)" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-e44ee3e8-1073">
+              <g class="marker" id="img-e44ee3e8-1074">
+                <g transform="translate(51.88,51.62)" id="img-e44ee3e8-1075">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1076">
+              <g class="marker" id="img-e44ee3e8-1077">
+                <g transform="translate(115.22,15.12)" id="img-e44ee3e8-1078">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1079">
+              <g class="marker" id="img-e44ee3e8-1080">
+                <g transform="translate(114.21,19.58)" id="img-e44ee3e8-1081">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1082">
+              <g class="marker" id="img-e44ee3e8-1083">
+                <g transform="translate(112.58,16.87)" id="img-e44ee3e8-1084">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1085">
+              <g class="marker" id="img-e44ee3e8-1086">
+                <g transform="translate(112.38,19.58)" id="img-e44ee3e8-1087">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1088">
+              <g class="marker" id="img-e44ee3e8-1089">
+                <g transform="translate(110.54,17.14)" id="img-e44ee3e8-1090">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1091">
+              <g class="marker" id="img-e44ee3e8-1092">
+                <g transform="translate(108.86,19.58)" id="img-e44ee3e8-1093">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1094">
+              <g class="marker" id="img-e44ee3e8-1095">
+                <g transform="translate(108.17,19.88)" id="img-e44ee3e8-1096">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1097">
+              <g class="marker" id="img-e44ee3e8-1098">
+                <g transform="translate(105.09,20.53)" id="img-e44ee3e8-1099">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1100">
+              <g class="marker" id="img-e44ee3e8-1101">
+                <g transform="translate(105.07,21.66)" id="img-e44ee3e8-1102">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1103">
+              <g class="marker" id="img-e44ee3e8-1104">
+                <g transform="translate(105.05,22.72)" id="img-e44ee3e8-1105">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1106">
+              <g class="marker" id="img-e44ee3e8-1107">
+                <g transform="translate(104.44,21.38)" id="img-e44ee3e8-1108">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1109">
+              <g class="marker" id="img-e44ee3e8-1110">
+                <g transform="translate(103.75,21.32)" id="img-e44ee3e8-1111">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1112">
+              <g class="marker" id="img-e44ee3e8-1113">
+                <g transform="translate(103.02,21.32)" id="img-e44ee3e8-1114">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1115">
+              <g class="marker" id="img-e44ee3e8-1116">
+                <g transform="translate(102.21,20.9)" id="img-e44ee3e8-1117">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1118">
+              <g class="marker" id="img-e44ee3e8-1119">
+                <g transform="translate(101.19,24.88)" id="img-e44ee3e8-1120">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1121">
+              <g class="marker" id="img-e44ee3e8-1122">
+                <g transform="translate(100.78,23.32)" id="img-e44ee3e8-1123">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1124">
+              <g class="marker" id="img-e44ee3e8-1125">
+                <g transform="translate(100.19,23.06)" id="img-e44ee3e8-1126">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1127">
+              <g class="marker" id="img-e44ee3e8-1128">
+                <g transform="translate(100.17,22.95)" id="img-e44ee3e8-1129">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1130">
+              <g class="marker" id="img-e44ee3e8-1131">
+                <g transform="translate(99.16,24.88)" id="img-e44ee3e8-1132">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1133">
+              <g class="marker" id="img-e44ee3e8-1134">
+                <g transform="translate(97.98,22.72)" id="img-e44ee3e8-1135">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1136">
+              <g class="marker" id="img-e44ee3e8-1137">
+                <g transform="translate(97.65,24.95)" id="img-e44ee3e8-1138">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1139">
+              <g class="marker" id="img-e44ee3e8-1140">
+                <g transform="translate(96.07,24.64)" id="img-e44ee3e8-1141">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1142">
+              <g class="marker" id="img-e44ee3e8-1143">
+                <g transform="translate(95.68,27.88)" id="img-e44ee3e8-1144">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1145">
+              <g class="marker" id="img-e44ee3e8-1146">
+                <g transform="translate(94.7,23.58)" id="img-e44ee3e8-1147">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1148">
+              <g class="marker" id="img-e44ee3e8-1149">
+                <g transform="translate(94.61,23.05)" id="img-e44ee3e8-1150">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1151">
+              <g class="marker" id="img-e44ee3e8-1152">
+                <g transform="translate(93.82,26.07)" id="img-e44ee3e8-1153">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1154">
+              <g class="marker" id="img-e44ee3e8-1155">
+                <g transform="translate(93.63,27.58)" id="img-e44ee3e8-1156">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1157">
+              <g class="marker" id="img-e44ee3e8-1158">
+                <g transform="translate(92.16,27.88)" id="img-e44ee3e8-1159">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1160">
+              <g class="marker" id="img-e44ee3e8-1161">
+                <g transform="translate(91.67,27.65)" id="img-e44ee3e8-1162">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1163">
+              <g class="marker" id="img-e44ee3e8-1164">
+                <g transform="translate(91.18,27.28)" id="img-e44ee3e8-1165">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1166">
+              <g class="marker" id="img-e44ee3e8-1167">
+                <g transform="translate(90.89,31.42)" id="img-e44ee3e8-1168">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1169">
+              <g class="marker" id="img-e44ee3e8-1170">
+                <g transform="translate(90.79,25.99)" id="img-e44ee3e8-1171">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1172">
+              <g class="marker" id="img-e44ee3e8-1173">
+                <g transform="translate(90.7,29.46)" id="img-e44ee3e8-1174">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1175">
+              <g class="marker" id="img-e44ee3e8-1176">
+                <g transform="translate(90.5,26.9)" id="img-e44ee3e8-1177">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1178">
+              <g class="marker" id="img-e44ee3e8-1179">
+                <g transform="translate(89.33,30.67)" id="img-e44ee3e8-1180">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1181">
+              <g class="marker" id="img-e44ee3e8-1182">
+                <g transform="translate(89.13,26.9)" id="img-e44ee3e8-1183">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1184">
+              <g class="marker" id="img-e44ee3e8-1185">
+                <g transform="translate(89.13,28.78)" id="img-e44ee3e8-1186">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1187">
+              <g class="marker" id="img-e44ee3e8-1188">
+                <g transform="translate(89.03,29.31)" id="img-e44ee3e8-1189">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1190">
+              <g class="marker" id="img-e44ee3e8-1191">
+                <g transform="translate(88.94,30.59)" id="img-e44ee3e8-1192">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1193">
+              <g class="marker" id="img-e44ee3e8-1194">
+                <g transform="translate(88.94,28.1)" id="img-e44ee3e8-1195">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1196">
+              <g class="marker" id="img-e44ee3e8-1197">
+                <g transform="translate(87.27,31.42)" id="img-e44ee3e8-1198">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1199">
+              <g class="marker" id="img-e44ee3e8-1200">
+                <g transform="translate(87.08,28.71)" id="img-e44ee3e8-1201">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1202">
+              <g class="marker" id="img-e44ee3e8-1203">
+                <g transform="translate(86.78,31.5)" id="img-e44ee3e8-1204">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1205">
+              <g class="marker" id="img-e44ee3e8-1206">
+                <g transform="translate(86.59,29.46)" id="img-e44ee3e8-1207">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1208">
+              <g class="marker" id="img-e44ee3e8-1209">
+                <g transform="translate(84.73,29.01)" id="img-e44ee3e8-1210">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1211">
+              <g class="marker" id="img-e44ee3e8-1212">
+                <g transform="translate(84.73,31.65)" id="img-e44ee3e8-1213">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1214">
+              <g class="marker" id="img-e44ee3e8-1215">
+                <g transform="translate(84.73,31.2)" id="img-e44ee3e8-1216">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1217">
+              <g class="marker" id="img-e44ee3e8-1218">
+                <g transform="translate(82.38,31.65)" id="img-e44ee3e8-1219">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1220">
+              <g class="marker" id="img-e44ee3e8-1221">
+                <g transform="translate(82.09,33.53)" id="img-e44ee3e8-1222">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1223">
+              <g class="marker" id="img-e44ee3e8-1224">
+                <g transform="translate(81.9,30.67)" id="img-e44ee3e8-1225">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1226">
+              <g class="marker" id="img-e44ee3e8-1227">
+                <g transform="translate(80.82,29.61)" id="img-e44ee3e8-1228">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1229">
+              <g class="marker" id="img-e44ee3e8-1230">
+                <g transform="translate(80.62,34.51)" id="img-e44ee3e8-1231">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1232">
+              <g class="marker" id="img-e44ee3e8-1233">
+                <g transform="translate(79.84,33.46)" id="img-e44ee3e8-1234">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1235">
+              <g class="marker" id="img-e44ee3e8-1236">
+                <g transform="translate(78.67,34.59)" id="img-e44ee3e8-1237">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1238">
+              <g class="marker" id="img-e44ee3e8-1239">
+                <g transform="translate(78.38,35.64)" id="img-e44ee3e8-1240">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1241">
+              <g class="marker" id="img-e44ee3e8-1242">
+                <g transform="translate(77.4,34.21)" id="img-e44ee3e8-1243">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1244">
+              <g class="marker" id="img-e44ee3e8-1245">
+                <g transform="translate(77.2,35.27)" id="img-e44ee3e8-1246">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1247">
+              <g class="marker" id="img-e44ee3e8-1248">
+                <g transform="translate(76.32,34.59)" id="img-e44ee3e8-1249">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1250">
+              <g class="marker" id="img-e44ee3e8-1251">
+                <g transform="translate(76.32,35.34)" id="img-e44ee3e8-1252">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1253">
+              <g class="marker" id="img-e44ee3e8-1254">
+                <g transform="translate(75.34,36.02)" id="img-e44ee3e8-1255">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1256">
+              <g class="marker" id="img-e44ee3e8-1257">
+                <g transform="translate(73.88,36.09)" id="img-e44ee3e8-1258">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1259">
+              <g class="marker" id="img-e44ee3e8-1260">
+                <g transform="translate(73.88,38.43)" id="img-e44ee3e8-1261">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1262">
+              <g class="marker" id="img-e44ee3e8-1263">
+                <g transform="translate(73.29,39.26)" id="img-e44ee3e8-1264">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1265">
+              <g class="marker" id="img-e44ee3e8-1266">
+                <g transform="translate(73.19,38.43)" id="img-e44ee3e8-1267">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1268">
+              <g class="marker" id="img-e44ee3e8-1269">
+                <g transform="translate(72.7,37.07)" id="img-e44ee3e8-1270">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1271">
+              <g class="marker" id="img-e44ee3e8-1272">
+                <g transform="translate(70.16,39.03)" id="img-e44ee3e8-1273">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1274">
+              <g class="marker" id="img-e44ee3e8-1275">
+                <g transform="translate(69.97,38.58)" id="img-e44ee3e8-1276">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1277">
+              <g class="marker" id="img-e44ee3e8-1278">
+                <g transform="translate(69.77,41.14)" id="img-e44ee3e8-1279">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1280">
+              <g class="marker" id="img-e44ee3e8-1281">
+                <g transform="translate(69.58,39.94)" id="img-e44ee3e8-1282">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1283">
+              <g class="marker" id="img-e44ee3e8-1284">
+                <g transform="translate(68.5,38.36)" id="img-e44ee3e8-1285">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1286">
+              <g class="marker" id="img-e44ee3e8-1287">
+                <g transform="translate(67.72,40.62)" id="img-e44ee3e8-1288">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1289">
+              <g class="marker" id="img-e44ee3e8-1290">
+                <g transform="translate(67.52,41.07)" id="img-e44ee3e8-1291">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1292">
+              <g class="marker" id="img-e44ee3e8-1293">
+                <g transform="translate(67.52,39.34)" id="img-e44ee3e8-1294">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1295">
+              <g class="marker" id="img-e44ee3e8-1296">
+                <g transform="translate(67.13,39.94)" id="img-e44ee3e8-1297">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1298">
+              <g class="marker" id="img-e44ee3e8-1299">
+                <g transform="translate(66.25,41.52)" id="img-e44ee3e8-1300">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1301">
+              <g class="marker" id="img-e44ee3e8-1302">
+                <g transform="translate(65.66,38.36)" id="img-e44ee3e8-1303">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1304">
+              <g class="marker" id="img-e44ee3e8-1305">
+                <g transform="translate(64.2,41.82)" id="img-e44ee3e8-1306">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1307">
+              <g class="marker" id="img-e44ee3e8-1308">
+                <g transform="translate(64.2,42.88)" id="img-e44ee3e8-1309">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1310">
+              <g class="marker" id="img-e44ee3e8-1311">
+                <g transform="translate(61.56,44.91)" id="img-e44ee3e8-1312">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1313">
+              <g class="marker" id="img-e44ee3e8-1314">
+                <g transform="translate(61.56,41.52)" id="img-e44ee3e8-1315">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1316">
+              <g class="marker" id="img-e44ee3e8-1317">
+                <g transform="translate(60.78,43.18)" id="img-e44ee3e8-1318">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1319">
+              <g class="marker" id="img-e44ee3e8-1320">
+                <g transform="translate(60.09,44.39)" id="img-e44ee3e8-1321">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1322">
+              <g class="marker" id="img-e44ee3e8-1323">
+                <g transform="translate(60.09,41.52)" id="img-e44ee3e8-1324">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1325">
+              <g class="marker" id="img-e44ee3e8-1326">
+                <g transform="translate(59.5,44.16)" id="img-e44ee3e8-1327">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1328">
+              <g class="marker" id="img-e44ee3e8-1329">
+                <g transform="translate(55.79,44.16)" id="img-e44ee3e8-1330">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1331">
+              <g class="marker" id="img-e44ee3e8-1332">
+                <g transform="translate(53.54,44.16)" id="img-e44ee3e8-1333">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1334">
+              <g class="marker" id="img-e44ee3e8-1335">
+                <g transform="translate(51.88,50.57)" id="img-e44ee3e8-1336">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1337">
+              <g class="marker" id="img-e44ee3e8-1338">
+                <g transform="translate(46.99,50.87)" id="img-e44ee3e8-1339">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1340">
+              <g class="marker" id="img-e44ee3e8-1341">
+                <g transform="translate(46.3,48.3)" id="img-e44ee3e8-1342">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1343">
+              <g class="marker" id="img-e44ee3e8-1344">
+                <g transform="translate(38.97,50.26)" id="img-e44ee3e8-1345">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1346">
+              <g class="marker" id="img-e44ee3e8-1347">
+                <g transform="translate(33.4,54.56)" id="img-e44ee3e8-1348">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1349">
+              <g class="marker" id="img-e44ee3e8-1350">
+                <g transform="translate(22.74,58.93)" id="img-e44ee3e8-1351">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1352">
+              <g class="marker" id="img-e44ee3e8-1353">
+                <g transform="translate(18.63,60.44)" id="img-e44ee3e8-1354">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_#Transistors__(thousands)" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-e44ee3e8-1355">
+              <g class="marker" id="img-e44ee3e8-1356">
+                <g transform="translate(17.75,61.65)" id="img-e44ee3e8-1357">
+                  <circle cx="0" cy="0" r="0.5" class="primitive"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="guide ylabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#FFFFFF" id="img-e44ee3e8-1358">
+    <g transform="translate(10.94,70.41)" id="img-e44ee3e8-1359">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan dy="-0.4em" font-size="83.3333%">-1</tspan></text>
+      </g>
+    </g>
+    <g transform="translate(10.94,63.98)" id="img-e44ee3e8-1360">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan dy="-0.4em" font-size="83.3333%">0</tspan></text>
+      </g>
+    </g>
+    <g transform="translate(10.94,57.55)" id="img-e44ee3e8-1361">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan dy="-0.4em" font-size="83.3333%">1</tspan></text>
+      </g>
+    </g>
+    <g transform="translate(10.94,51.12)" id="img-e44ee3e8-1362">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan dy="-0.4em" font-size="83.3333%">2</tspan></text>
+      </g>
+    </g>
+    <g transform="translate(10.94,44.69)" id="img-e44ee3e8-1363">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan dy="-0.4em" font-size="83.3333%">3</tspan></text>
+      </g>
+    </g>
+    <g transform="translate(10.94,38.25)" id="img-e44ee3e8-1364">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan dy="-0.4em" font-size="83.3333%">4</tspan></text>
+      </g>
+    </g>
+    <g transform="translate(10.94,31.82)" id="img-e44ee3e8-1365">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan dy="-0.4em" font-size="83.3333%">5</tspan></text>
+      </g>
+    </g>
+    <g transform="translate(10.94,25.39)" id="img-e44ee3e8-1366">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan dy="-0.4em" font-size="83.3333%">6</tspan></text>
+      </g>
+    </g>
+    <g transform="translate(10.94,18.96)" id="img-e44ee3e8-1367">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan dy="-0.4em" font-size="83.3333%">7</tspan></text>
+      </g>
+    </g>
+    <g transform="translate(10.94,12.53)" id="img-e44ee3e8-1368">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan dy="-0.4em" font-size="83.3333%">8</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#FFFFFF" stroke="#000000" stroke-opacity="0.000" id="img-e44ee3e8-1369">
+    <g transform="translate(64.78,5)" id="img-e44ee3e8-1370">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">Microprocessors metrics</text>
+      </g>
+    </g>
+  </g>
+</g>
+<defs>
+  <clipPath id="img-e44ee3e8-19">
+    <path d="M11.94,10.53 L117.63,10.53 117.63,72.41 11.94,72.41 " />
+  </clipPath>
+</defs>
+</svg>
