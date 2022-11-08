@@ -1,22 +1,22 @@
-# So you heard about Julia?
+# Introduction to Julia (for HPC)
 
 The Julia programming language is a relatively young language that promises performances on par with C and Fortran, while being as easy to use as Python, with a particular focus on scientific computation and High Performance Computing. Due to a number of spectacular successes, it has been attracting more and more attention from people in scientific computing and data science as a competitor to both C/C++/Fortran and Python.
 
-In this presentation, I will give a broad introduction to Julia, how it differs from languages like Python or Matlab, and most importantly whether those performance claims are the real deal. Along the way, I will demonstrate various useful Julia features and packages. The objective is to provide an overview of what the language offers, as well as giving pointers for people interested in learning the language.
+In this presentation, I will give a broad introduction to Julia, how it differs from languages like Python or Matlab, and most importantly whether those performance claims are the real deal. Along the way, I will demonstrate various useful features relevant to HPC. The objective is to provide an overview of what the language offers, as well as giving pointers for people interested in learning the language.
 
 ## Details about this page
 This repository is licensed under the Creative Commons CC0 Universal license.
 
-The slides were made with [Marp](https://marp.app/). Demos were made using [Pluto notebooks](https://github.com/fonsp/Pluto.jl).
+The slides were made with [Marp](https://marp.app/). Demos were made using Jupyter notebooks.
 
-All code examples were made in Julia 1.6.3.
+All code examples were made in Julia 1.7.0.
 
-This is the second edition of a talk I gave at ULimerick in 2020. You can check out the slides from that one [here](https://github.com/csimal/JuliaTalk-limerick).
+I previously gave some more broadly scoped versions of this presentation. You can find the slides for those [here](https://github.com/csimal/JuliaTalk-limerick), [here](https://github.com/csimal/Julia-Unamur) and [here](https://github.com/csimal/Julia-for-Dynamical-Systems).
 
 ## Links and Resources
 The latest version of Julia can be downloaded on the [official website](https://julialang.org/). The creators of Julia have also started a company called [Julia Computing](https://juliacomputing.com/), that provides various services around Julia, including editor support and curated packages. They've also recently announced a product called [JuliaSim](https://juliacomputing.com/products/juliasim/), which is aiming straight for the throat of Mathworks' Simulink and similar software.
 
-For a quick introduction to the langage, you can check [this page](https://learnxinyminutes.com/docs/julia/) or my own Julia Starter pack.
+For a quick introduction to the langage, you can check [this page](https://cheatsheet.juliadocs.org//), [this page](https://learnxinyminutes.com/docs/julia/) or my own [Julia Starter pack](https://github.com/csimal/Julia-Unamur/blob/main/pdfs/julia-starter-pack.md).
 
 ## Learning Julia
 Given the amount of interest (and funding) Julia is getting, it's no surprise that there are plenty of [learning resources](https://julialang.org/learning/). I found the [manual](https://docs.julialang.org/en/v1/) and the occasional visit to stackoverflow to be all I need, but your mileage may vary. Users coming to Julia from another language should check out [this page](https://docs.julialang.org/en/v1/manual/noteworthy-differences/)
@@ -63,79 +63,15 @@ One of Julia's main selling points is its speed. There a few benchmarks floating
 * [Discussion of Symbolics and ModelingToolkit with more spectacular speedups](https://www.notamonadtutorial.com/modeling-complexity-with-symbolics-jl-and-modelingtoolkit-jl/)
 * [Accelerating Flux.jl with PyTorch kernels](https://fluxml.ai/blog/2020/06/29/acclerating-flux-torch.html) I couldn't find many benchmarks of Flux with other popular DL frameworks, but nonetheless you can just "borrow" stuff from PyTorch.
 
-## Packages
-Julia's package ecosystem is still modest in comparison to Python or R. Nonetheless, with the overhaul of the package manager and registry in version 1.6, it is now in a state where you can find a package for almost anything you might want to do (and if not, you can also interface with Python packages through PyCall). Here's a list of noteworthy packages grouped by topics.
+## Parallel Programming in Julia
+
+Using parallel programming in one form or another is inevitable nowadays if you need performance, especially in HPC. As such Julia was designed with this in mind, and there is a [wealth of options](https://docs.julialang.org/en/v1/manual/parallel-computing/) that make most use cases about as easy as they could possibly be.
+
+- Julia Manual on [Multi-Threading](https://docs.julialang.org/en/v1/manual/multi-threading/)
+- Julia Manual on [Distributed Computing](https://docs.julialang.org/en/v1/manual/distributed-computing/)
+- The Github organisation for [Julia packages for parallel computing](https://github.com/JuliaParallel)
+- [A quick introduction to data parallelism in Julia](https://juliafolds.github.io/data-parallelism/tutorials/quick-introduction/)
+- The [JuliaFolds](https://github.com/JuliaFolds) github organisation, for packages revolving around the map-reduce paradigm. Highlights include [Floops.jl](https://github.com/JuliaFolds/FLoops.jl), [Folds.jl](https://github.com/JuliaFolds/Folds.jl) and [Transducers.jl](https://github.com/JuliaFolds/Transducers.jl)
+- Julia can run *natively* on CUDA gpus thanks to the [CUDA.jl](https://cuda.juliagpu.org/stable/) package. Support for [other](https://github.com/JuliaGPU/AMDGPU.jl) [constructors](https://github.com/JuliaGPU/oneAPI.jl) is also available, but still very much a Work In Progress.
 
 
-### Interfacing with other languages
-Switching to Julia doesn't mean you have to throw away your old code. You can natively [call C and Fortran functions](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/index.html) and there are bindings for [C++](https://github.com/JuliaInterop/Cxx.jl), [Python](https://github.com/JuliaPy/PyCall.jl), [R](https://github.com/JuliaInterop/RCall.jl) and [many more](https://github.com/JuliaInterop).
-
-### Plotting
-
-Your first stop should be [Plots](https://github.com/JuliaPlots/Plots.jl), which provides an interface over multiple plotting backends, meaning you can switch to pyplot with a single call, and all your plotting code will work without modifications. Statistics people should look into [StatsPlots](https://github.com/JuliaPlots/StatsPlots.jl) and [Gadfly](http://gadflyjl.org/stable/). Note that Plots is mostly intended for creating static plots without interactivity. [Makie](http://makie.juliaplots.org/stable/index.html) is another package geared for interactivity.
-
-### Dynamical Systems
-[DifferentialEquations](https://diffeq.sciml.ai/stable/) is a **massive** suite of solvers for differential equations. If you believe [this blog post](http://www.stochasticlifestyle.com/comparison-differential-equation-solver-suites-matlab-r-julia-python-c-fortran/) by the main author of the package, it is the most comprehensive suite of solvers on the market today. I think it's not an overstatement to say that this package is one of the main drivers of Julia's growing adoption among the scientific community.
-
-Not only this, it has become the nexus of a *sprawling* ecosystem of satellite packages. Highlights include
-* [ModelingToolkit](https://github.com/SciML/ModelingToolkit.jl) A framework that allows to symbolically define a set of ODEs and have it automagically transformed into an optimized problem that you can run on the GPU.
-* [Catalyst](https://github.com/SciML/Catalyst.jl) A chemical reaction modeling package building on ModelingToolkit.
-* [DataDrivenDiffEq](https://github.com/SciML/DataDrivenDiffEq.jl) Discover dynamics from data. If you like applied Koopman theory, this one is for you.
-* [DiffEqUncertainty](https://github.com/SciML/DiffEqUncertainty.jl) Do you have uncertainties on your ODE parameters? Do you want to see a cool application of Koopman Operator theory? If you answered yes to either of these questions, check this package out.
-* [Quadrature](https://github.com/SciML/Quadrature.jl) Numerical quadrature. Better yet, *differentiable* numerical quadrature.
-
-[DynamicalSystems](https://juliadynamics.github.io/DynamicalSystems.jl/latest/) is a suite of packages that builds on top of DifferentialEquations to provide tools for analysing general dynamical systems, especially chaotic ones. 
-
-See also [BifurcationKit](https://github.com/rveltz/BifurcationKit.jl/) for bifurcation diagrams.
-
-Finally, the package [ApproxFun](https://github.com/JuliaApproximation/ApproxFun.jl) deserves a special mention. Far from just approximating functions in a variety of function bases, it also allows solving linear and nonlinear ODES *in function space*.
-
-### Networks
-[Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl) is an excellent package for network analysis, including generators for a wide array of static and random network models and a plethora of network algorithms (Its online documentation sucks however). It is the core of the wider [JuliaGraphs](https://juliagraphs.github.io/) ecosystem, which has a ton of options for visualizing graphs. There is however a certain lack of polish to most of the actual network analysis packages.
-
-Other relevant packages include
-* [NetworkDynamics](https://github.com/PIK-ICoNe/NetworkDynamics.jl) build optimized dynamical systems on networks. It's used in [PowerDynamics](https://juliaenergy.github.io/PowerDynamics.jl/stable/) to model electrical networks.
-* [SimpleHypergraphs](https://github.com/pszufe/SimpleHypergraphs.jl) and [Simplicial](https://github.com/nebneuron/Simplicial.jl) for your preferred flavour of higher order graph. (Simplicial is still in a much rougher state, however)
-
-### Statistics
-There are plenty of packages in the [JuliaStats](https://github.com/JuliaStats) ecosystem. The [Distributions](https://github.com/JuliaStats/Distributions.jl) package is especially nice to use. There's not much that I can say other than to look for yourself.
-
-There are also some choice packages for [Probabilistic](https://turing.ml/dev/) [Programming](https://github.com/StanJulia/Stan.jl), if that's your thing.
-
-### Machine Learning
-[Flux](https://github.com/FluxML/Flux.jl) is a pure Julia Deep Learning library. It is the place to go for mixing Neural networks and ODEs, thanks to the [DiffEqFlux](https://github.com/SciML/DiffEqFlux.jl) package. Another pure Julia package is [KNet](https://denizyuret.github.io/Knet.jl/latest/install/)
-
-Outside these, the [MLJ](https://github.com/alan-turing-institute/MLJ.jl) serves as an overarching framework over the various Julia machine learning packages, *à la* Scikit-learn. Speaking of which, there's a [wrapper](https://github.com/cstjean/ScikitLearn.jl) to it. See also [Tensorflow](https://github.com/malmaud/TensorFlow.jl), [JuliaML](https://github.com/JuliaML) and [JuliaAI](https://github.com/JuliaAI).
-
-### Physics
-The [JuliaPhysics](https://github.com/JuliaPhysics) ecosystem should be your first stop. You may also be interested in the following:
-
-* [QuantumOptics](https://qojulia.org/) Exactly what it says on the tin, with some rather sexy [benchmarks](https://qojulia.org/benchmarks) to boot.
-* [Yao](https://github.com/QuantumBFS/Yao.jl) Quantum Computing
-* [QuantumLab](https://github.com/vonDonnerstein/QuantumLab.jl) and [Quante](https://github.com/jarvist/Quante.jl) Quantum Chemistry. Neither has been updated in a while, and I don't know enough about QC to assess them. Your mileage may vary.
-
-See also [Unitful](https://github.com/PainterQubits/Unitful.jl) to handle quantities with physical units.
-
-### Astronomy and Aerospace
-* [JuliaAstro](https://juliaastro.github.io/dev/index.html) Computational Astronomy ecosystem
-* [SatelliteToolbox](https://github.com/JuliaSpace/SatelliteToolbox.jl) Satellite simulations. Developed and used by the Brazilian Space Agency to plan missions.
-* [Modeling Spacecraft Separation Dynamics in Julia - Jonathan Diegelman](https://www.youtube.com/watch?v=tQpqsmwlfY0) A short talk by a NASA engineer describing how he rewrote the NASA Spacecraft Separation planning tool from Simulink to Julia.
-
-### Optimization
-[JuMP](https://jump.dev/) is the equivalent of DifferentialEquations for optimization.
-
-See also [Optim](https://github.com/JuliaNLSolvers/Optim.jl) and [GalacticOptim](https://github.com/SciML/GalacticOptim.jl).
-
-### Control Systems
-
-* [ControlSystems](https://github.com/JuliaControl/ControlSystems.jl) Part of the [JuliaControl](https://github.com/JuliaControl) ecosystem. It feels more like a Matlab Toolbox than a Julia package, but it has what you would expect.
-* [POMDPs](https://juliapomdp.github.io/POMDPs.jl/v0.4/) for a more Bayesian/Machine-learny approach to the same types of problems.
-
-### Pure(r) mathematics
-Julia is not just for applied mathematics, and there are a couple of packages for doing more abstract math. Highlights include
-
-* [Grassmann](https://github.com/chakravala/Grassmann.jl): Differential Geometry and Geometric Algebra. It's worth taking multiple times to read its main page just to gradually take in its sheer insanity.
-* [Manifolds](https://github.com/JuliaManifolds/Manifolds.jl): Differential Geometry. Use this if you want to do data analysis and your data lives on a Riemannian manifold (see also [Manopt](https://github.com/JuliaManifolds/Manopt.jl) for optimization on manifolds).
-* [Symbolics](https://juliasymbolics.org/): Symbolic algebra. This grew out of work on DifferentialEquations, and is already giving Sympy and Mathematica a run for their money.
-* [Catlab](https://algebraicjulia.github.io/Catlab.jl/latest/): Applied Category Theory. Worth checking out if you've ever wanted to learn about Categories in a more practical context.
-* [Nemo](https://nemocas.org/): Computer Algebra. If you like number theory, this is the place for you.
