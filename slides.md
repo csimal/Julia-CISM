@@ -3,20 +3,27 @@ marp: true
 theme: uncover
 style: |
     h1 {
-        font-size: 50px;
-        text-align: left;
-    }
-    h2 {
-        font-size: 45px;
-        text-align: left;
-    }
-    h3 {
         font-size: 40px;
         text-align: left;
+        margin: 0;
+        padding-top: 0;
     }
-    section {
+    h2 {
         font-size: 35px;
         text-align: left;
+        margin: 0;
+        padding-top: 0;
+    }
+    h3 {
+        font-size: 30px;
+        text-align: left;
+        margin: 0px;
+        padding-top: 0;
+    }
+    section {
+        font-size: 25px;
+        text-align: left;
+        margin: 5px;
     }
     ul, ol {
         margin-left: 0;
@@ -25,16 +32,34 @@ style: |
 class: invert
 paginate: true
 #backgroundColor: #fff
+math: mathjax
 ---
 <!-- _paginate: false -->
 ![bg right:40% 80%](images/julia-dots.svg)
 # Introduction to Julia
 ### Cédric Simal
 Unamur, Naxys
-15/12/21
 
+### CISM Training Sessions
+09/11/22
 
 ---
+<style scoped>
+    section {
+        text-align: center;
+    }
+</style>
+# Follow along!
+![height:400px](images/index.gif)
+https://github.com/csimal/Julia-CISM
+
+---
+<style scoped>
+    section {
+        text-align: center;
+        font-size: 30px;
+    }
+</style>
 # Outline
 
 1. Basics of Julia
@@ -49,7 +74,8 @@ Unamur, Naxys
         font-size: 30px;
     }
 </style>
-# The two languages problem
+## Modern Problems in Scientific Computing
+### The two languages problem
 ![height:500px](images/two-languages-problem.png)
 
 ---
@@ -59,7 +85,8 @@ Unamur, Naxys
         font-size: 30px;
     }
 </style>
-# The rise of parallel computing
+## Modern Problems in Scientific Computing
+### The rise of parallel computing
 ![width:750px](images/cpus-languages.png)
 data: https://github.com/karlrupp/microprocessor-trend-data
 
@@ -81,16 +108,73 @@ data: https://github.com/karlrupp/microprocessor-trend-data
 # A short history of Julia
 ![width:1000px](images/timeline.png)
 
+![height:300px](images/petaflop.png)
+
+https://juliacomputing.com/case-studies/celeste/
+
+---
+<style scoped>
+    section {
+        text-align: center;
+        font-size: 30;
+    }
+</style>
+# Why you might want to use Julia
+### Julia is fast
+
+![height:500](images/benchmarks_dark.svg)
+https://julialang.org/benchmarks/
+
+
 ---
 <style scoped>
     section {
         text-align: center;
     }
 </style>
-# Julia is fast
-![height:500](images/benchmarks_dark.svg)
-https://julialang.org/benchmarks/
+## Why you might want to use Julia
+### DifferentialEquations.jl is SOTA
 
+![](https://benchmarks.sciml.ai/stable/MultiLanguage/figures/wrapper_packages_4_1.png)
+
+https://benchmarks.sciml.ai/stable/MultiLanguage/ode_wrapper_packages/
+
+---
+# Why you might want to use Julia
+<style scoped>
+    section {
+        text-align: center;
+        font-size: 30px;
+        margin: 30;
+    }
+</style>
+
+- Open Source (MIT license)
+    * It's free to use!
+    * Faster development than proprietary languages
+- Made for numerical computing
+- Unicode
+    * Code looks like math
+- It's secretly a LISP
+
+---
+<style scoped>
+    section {
+        text-align: center;
+        font-size: 30px;
+        margin: 30;
+    }
+</style>
+# Why you might *NOT* want to use Julia
+
+- Open Source
+    * Documentation can suck
+    * Projects with only one maintainer
+- Time to first X
+    * Parts of your programs have to be recompiled on startup
+- Error messages are not beginner-friendly
+- Tiny compared to Python
+- Array indices start at 1
 ---
 <style scoped>
     section {
@@ -102,14 +186,23 @@ https://julialang.org/benchmarks/
 
 ---
 # Type System
+
 Julia's type system is
 * Dynamic, with optional type annotations `x::Int`
-* Parametric `Vector{T}`
+* Parametric `Vector{T}` (*generic types*)
 * Hierarchical (subtyping) `Float64 <: Real`
 
 ---
+# First class citizens
+
+In Julia, the following objects are *first class citizens*
+- Functions ($\Rightarrow$ functional programming)
+- Types (`Type{T}`)
+- Julia Expressions ($\Rightarrow$ Metaprogramming)
+
+---
 # Multiple Dispatch
-```julia
+```julia-repl
 julia> +
 + (generic function with 198 methods)
 
@@ -137,81 +230,10 @@ julia> methods(+)
 ![](images/secret-sauce.svg)
 
 ---
-# Postcard demo
-
----
-# Dynamical Systems
-![bg right:50% 90%](images/juliaDiffEq.png)
-* [DifferentialEquations](https://diffeq.sciml.ai/stable/)
-* [DynamicalSystems](https://juliadynamics.github.io/DynamicalSystems.jl/latest/)
-
----
 <style scoped>
     section {
         text-align: center;
     }
 </style>
-![](images/friendshipended.png)
-
----
-# Networks
-![bg left:50% 80%](images/juliaGraphs.png)
-* [Graphs](https://github.com/JuliaGraphs/Graphs.jl)
-* [NetworkDynamics](https://github.com/PIK-ICoNe/NetworkDynamics.jl)
-* [SimpleHypergraphs](https://github.com/pszufe/SimpleHypergraphs.jl)
-* [Simplicial](https://github.com/nebneuron/Simplicial.jl)
-
-
----
-# Statistics
-![bg right:50% 80%](images/juliaStats.png)
-
----
-# Machine Learning
-![bg left:50% 80%](images/ML.png)
-
----
-# Physics
-![bg right:50% 80%](images/juliaPhysics.png)
-
- [QuantumOptics](https://qojulia.org/)
-[Yao](https://github.com/QuantumBFS/Yao.jl)
-
----
-# Astronomy & Aerospace
-![bg left:50% 80%](images/juliaAstro.png)
-
----
-# Optimization
-![bg right:50% 80%](images/jump.svg)
-
-[Optim](https://github.com/JuliaNLSolvers/Optim.jl)
-[GalacticOptim](https://github.com/SciML/GalacticOptim.jl)
-
----
-# Interop
-![bg left:50% 80%](images/juliaInterop.png)
-
----
-# Plotting
-![bg right:50% 80%](images/juliaPlots.png)
-* [Plots](https://github.com/JuliaPlots/Plots.jl)
-* [Gadfly](http://gadflyjl.org/stable/)
-* [Makie](http://makie.juliaplots.org/stable/index.html)
-
----
-# Conclusions
-* Compared to a year ago, Julia has grown tremendously
-* It delivers on its promise to "Walk like Python. Run like C"
-* Main challenge: reach critical mass
-
----
-<style scoped>
-section {
-    text-align: center;
-}
-</style>
-# That's all folks!
-
-![width:1100px](images/virginpython-chadjulia.png)
-https://github.com/csimal/Julia-Unamur
+![height:400px](images/index.gif)
+https://github.com/csimal/Julia-CISM
