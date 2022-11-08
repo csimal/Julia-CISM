@@ -71,6 +71,5 @@ Using parallel programming in one form or another is inevitable nowadays if you 
 - The Github organisation for [Julia packages for parallel computing](https://github.com/JuliaParallel)
 - [A quick introduction to data parallelism in Julia](https://juliafolds.github.io/data-parallelism/tutorials/quick-introduction/)
 - The [JuliaFolds](https://github.com/JuliaFolds) github organisation, for packages revolving around the map-reduce paradigm. Highlights include [Floops.jl](https://github.com/JuliaFolds/FLoops.jl), [Folds.jl](https://github.com/JuliaFolds/Folds.jl) and [Transducers.jl](https://github.com/JuliaFolds/Transducers.jl)
-- Julia can run *natively* on CUDA gpus thanks to the [CUDA.jl](https://cuda.juliagpu.org/stable/) package. Support for [other](https://github.com/JuliaGPU/AMDGPU.jl) [constructors](https://github.com/JuliaGPU/oneAPI.jl) is also available, but still very much a Work In Progress.
-
+- Julia can run *natively* on CUDA gpus thanks to the [CUDA.jl](https://cuda.juliagpu.org/stable/) package. Support for [other](https://github.com/JuliaGPU/AMDGPU.jl) [constructors](https://github.com/JuliaGPU/oneAPI.jl) is also available, but still very much a Work In Progress. See also [Tullio](https://github.com/mcabbott/Tullio.jl) and [KernelAbstractions](https://juliagpu.github.io/KernelAbstractions.jl/stable/)
 
