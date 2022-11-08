@@ -1,6 +1,6 @@
 # Introduction to Julia (for HPC)
 
-The Julia programming language is a relatively young language that promises performances on par with C and Fortran, while being as easy to use as Python, with a particular focus on scientific computation and High Performance Computing. Due to a number of spectacular successes, it has been attracting more and more attention from people in scientific computing and data science as a competitor to both C/C++/Fortran and Python.
+The Julia programming language is a relatively young language that promises performances on par with C and Fortran, while being as easy to use as Python, with a particular focus on scientific computation and High Performance Computing. Due to a number of [spectacular successes](https://juliacomputing.com/case-studies/celeste/), it has been attracting more and more attention from people in scientific computing and data science as a competitor to both C/C++/Fortran and Python.
 
 In this presentation, I will give a broad introduction to Julia, how it differs from languages like Python or Matlab, and most importantly whether those performance claims are the real deal. Along the way, I will demonstrate various useful features relevant to HPC. The objective is to provide an overview of what the language offers, as well as giving pointers for people interested in learning the language.
 
@@ -20,6 +20,8 @@ For a quick introduction to the langage, you can check [this page](https://cheat
 
 ## Learning Julia
 Given the amount of interest (and funding) Julia is getting, it's no surprise that there are plenty of [learning resources](https://julialang.org/learning/). I found the [manual](https://docs.julialang.org/en/v1/) and the occasional visit to stackoverflow to be all I need, but your mileage may vary. Users coming to Julia from another language should check out [this page](https://docs.julialang.org/en/v1/manual/noteworthy-differences/)
+
+For a short overview of Julia packages for science, see [here]().
 
 ## Sales Pitch
 Want to know what Julia's all about? Start with these
