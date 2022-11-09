@@ -18,6 +18,8 @@ The latest version of Julia can be downloaded on the [official website](https://
 
 For a quick introduction to the langage, you can check [this page](https://cheatsheet.juliadocs.org//), [this page](https://learnxinyminutes.com/docs/julia/) or my own [Julia Starter pack](https://github.com/csimal/Julia-Unamur/blob/main/pdfs/julia-starter-pack.md).
 
+If you're looking for books to learn Julia. [This recent blog post](https://logankilpatrick.medium.com/the-best-julia-programming-books-going-into-2023-ab51adae091c) might help.
+
 ## Learning Julia
 Given the amount of interest (and funding) Julia is getting, it's no surprise that there are plenty of [learning resources](https://julialang.org/learning/). I found the [manual](https://docs.julialang.org/en/v1/) and the occasional visit to stackoverflow to be all I need, but your mileage may vary. Users coming to Julia from another language should check out [this page](https://docs.julialang.org/en/v1/manual/noteworthy-differences/)
 
