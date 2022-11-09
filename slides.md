@@ -38,6 +38,7 @@ math: mathjax
 ![bg right:40% 80%](images/julia-dots.svg)
 # Introduction to Julia
 ### Cédric Simal
+cedric.simal@unamur.be
 Unamur, Naxys
 
 ### CISM Training Sessions
@@ -237,3 +238,4 @@ julia> methods(+)
 </style>
 ![height:400px](images/index.gif)
 https://github.com/csimal/Julia-CISM
+cedric.simal@unamur.be
