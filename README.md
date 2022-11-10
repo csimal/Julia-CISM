@@ -38,6 +38,11 @@ Want to know what Julia's all about? Start with these
 * [Differentiable Programming with Julia by Mike Innes](https://www.youtube.com/watch?v=LjWzgTPFu14) A short talk on [Differentiable Programming](https://fluxml.ai/blog/2019/02/07/what-is-differentiable-programming.html), which has been hailed by some famous ML researchers (e.g. Yan LeCun) as the next revolution after Deep Learning.
 * [What packages are state-of-the-art OR attract you to Julia, and make you stay there?](https://discourse.julialang.org/t/what-package-s-are-state-of-the-art-or-attract-you-to-julia-and-make-you-stay-there-not-easily-replicateable-in-e-g-python-r-matlab/11294/4)
 
+## Bad things about Julia
+A common criticism of Julia is that it has many correctness bugs. See for example [this blog post](https://yuri.is/not-julia/) which highlights a number of them, and is [widely discussed](https://discourse.julialang.org/t/discussion-on-why-i-no-longer-recommend-julia-by-yuri-vishnevsky/81151/12) among Julia developers. 
+
+One of the roots of these problems is that while abstract types are used as de-facto interfaces, the language has no formal way of defining an interface and the properties and the solutions it should satisfy, and no way to check that a given implementation complies with them.
+
 ## Advanced examples/tutorials
 Once you've fallen into the Julia rabbit hole, read the following. They contain a lot of useful insight and tips.
 * [Julia Basics: Multiple Dispatch](https://opensourc.es/blog/basics-multiple-dispatch/) A nice explanation of multiple dispatch.
